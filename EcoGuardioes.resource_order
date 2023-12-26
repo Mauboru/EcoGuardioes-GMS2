@@ -18,7 +18,6 @@
   "ResourceOrderSettings": [
     {"name":"sprBar","order":1,"path":"sprites/sprBar/sprBar.yy",},
     {"name":"sprPraia","order":4,"path":"sprites/sprPraia/sprPraia.yy",},
-    {"name":"objGuara","order":1,"path":"objects/objGuara/objGuara.yy",},
     {"name":"obj_pessoas","order":2,"path":"objects/obj_pessoas/obj_pessoas.yy",},
     {"name":"obj_controller","order":6,"path":"objects/obj_controller/obj_controller.yy",},
     {"name":"spr_lixos","order":12,"path":"sprites/spr_lixos/spr_lixos.yy",},
