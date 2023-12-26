@@ -1,4 +1,4 @@
-//audio_play_sound(snd_tema, 1, 1)
+audio_play_sound(snd_tema, 1, 1)
 
 pontos = 0;
 ondas = 1;
