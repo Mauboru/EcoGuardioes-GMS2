@@ -1,0 +1,11 @@
+# Adicionar
+
+- Tela de Menu
+- Tela de Bônus
+- Tela de Fim de Jogo
+- Tela de Vitória
+- Tela de Pause
+
+# Código
+
+- lixos funcionando
