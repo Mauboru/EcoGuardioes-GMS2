@@ -5,11 +5,6 @@ switch(tipo){
 		draw_text(x, y, pontos)
 		break;
 	}
-	case"fase":{
-		//Lógica de fase
-		
-		break;
-	}
 	case"ondas":{
 		//Lógica de ondas
 		draw_text(x, y, ondas);
