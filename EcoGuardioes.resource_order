@@ -23,7 +23,6 @@
     {"name":"spr_lixos","order":12,"path":"sprites/spr_lixos/spr_lixos.yy",},
     {"name":"obj_lixo","order":3,"path":"objects/obj_lixo/obj_lixo.yy",},
     {"name":"obj_mare","order":9,"path":"objects/obj_mare/obj_mare.yy",},
-    {"name":"teste","order":14,"path":"sprites/teste/teste.yy",},
     {"name":"obj_pontuacao","order":7,"path":"objects/obj_pontuacao/obj_pontuacao.yy",},
     {"name":"sprCaicara","order":5,"path":"sprites/sprCaicara/sprCaicara.yy",},
     {"name":"spr_lixeiras","order":11,"path":"sprites/spr_lixeiras/spr_lixeiras.yy",},
