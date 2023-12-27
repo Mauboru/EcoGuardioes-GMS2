@@ -27,7 +27,6 @@
     {"name":"obj_pontuacao","order":7,"path":"objects/obj_pontuacao/obj_pontuacao.yy",},
     {"name":"sprCaicara","order":5,"path":"sprites/sprCaicara/sprCaicara.yy",},
     {"name":"spr_lixeiras","order":11,"path":"sprites/spr_lixeiras/spr_lixeiras.yy",},
-    {"name":"sprGuara","order":2,"path":"sprites/sprGuara/sprGuara.yy",},
     {"name":"spr_mare","order":13,"path":"sprites/spr_mare/spr_mare.yy",},
     {"name":"obj_limite","order":4,"path":"objects/obj_limite/obj_limite.yy",},
     {"name":"spr_limite","order":10,"path":"sprites/spr_limite/spr_limite.yy",},

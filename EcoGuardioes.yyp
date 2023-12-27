@@ -50,7 +50,6 @@
     {"id":{"name":"objBar","path":"objects/objBar/objBar.yy",},},
     {"id":{"name":"spr_lixeiras","path":"sprites/spr_lixeiras/spr_lixeiras.yy",},},
     {"id":{"name":"snd_tema","path":"sounds/snd_tema/snd_tema.yy",},},
-    {"id":{"name":"sprGuara","path":"sprites/sprGuara/sprGuara.yy",},},
     {"id":{"name":"spr_mare","path":"sprites/spr_mare/spr_mare.yy",},},
     {"id":{"name":"sprJogo","path":"sprites/sprJogo/sprJogo.yy",},},
     {"id":{"name":"obj_limite","path":"objects/obj_limite/obj_limite.yy",},},
