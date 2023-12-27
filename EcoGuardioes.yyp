@@ -45,7 +45,6 @@
     {"id":{"name":"scr_pessoas","path":"scripts/scr_pessoas/scr_pessoas.yy",},},
     {"id":{"name":"obj_pontuacao","path":"objects/obj_pontuacao/obj_pontuacao.yy",},},
     {"id":{"name":"sprCaicara","path":"sprites/sprCaicara/sprCaicara.yy",},},
-    {"id":{"name":"Fazer","path":"notes/Fazer/Fazer.yy",},},
     {"id":{"name":"objBar","path":"objects/objBar/objBar.yy",},},
     {"id":{"name":"spr_lixeiras","path":"sprites/spr_lixeiras/spr_lixeiras.yy",},},
     {"id":{"name":"snd_tema","path":"sounds/snd_tema/snd_tema.yy",},},

@@ -19,4 +19,3 @@ var _minutos = string(floor(timer % 60));
 if (string_length(_minutos) == 1) _minutos = "0" + _minutos;
 
 draw_text(20, 40, "Tempo: " + _horas + ":" + _minutos);
-//
