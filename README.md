@@ -5,7 +5,7 @@
 - Menu do jogo
 
 # Corrigir
--
+- Discord não aparece, dll com erro
 
 # Atualizar
 -
