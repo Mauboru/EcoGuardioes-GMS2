@@ -22,6 +22,21 @@ if (timer == 0){
 	//Faz a maré encher
 }
 
+//Criando o objeto de tela de fim de jogo
+if (encheu){
+	
+}
+
+#region Discord
+
+/*
+if (global.discord == true){
+	discord_update_presence("Iniciou o Discord", "Jogando há " + string(ceil(current_time / 60000)) + " minutos", "icon1", "");
+}
+*/
+
+#endregion
+
 #region Controles para Debuggar
 
 //Tela cheia
