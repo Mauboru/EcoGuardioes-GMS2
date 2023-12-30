@@ -5,5 +5,3 @@ if (enchendo) {
 	
 	if(image_yscale <= -1.5) enchendo = false;
 }
-
-show_debug_message(image_yscale)

@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "spr_fundo_fimdejogo",
+  "name": "spr_fundo",
   "bbox_bottom": 1023,
   "bbox_left": 0,
   "bbox_right": 1023,
@@ -33,7 +33,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "spr_fundo_fimdejogo",
+    "name": "spr_fundo",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -55,8 +55,8 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"5819849b-0217-457e-8d42-27ff6417ea0c","path":"sprites/spr_fundo_fimdejogo/spr_fundo_fimdejogo.yy",},},},"Disabled":false,"id":"fa880f32-9557-4558-bea7-666063ce35c7","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d8dd2567-7463-428b-acdf-de718fdcc526","path":"sprites/spr_fundo_fimdejogo/spr_fundo_fimdejogo.yy",},},},"Disabled":false,"id":"9a3a7de5-2ab5-47bf-9e07-8b9393719841","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"5819849b-0217-457e-8d42-27ff6417ea0c","path":"sprites/spr_fundo/spr_fundo.yy",},},},"Disabled":false,"id":"fa880f32-9557-4558-bea7-666063ce35c7","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d8dd2567-7463-428b-acdf-de718fdcc526","path":"sprites/spr_fundo/spr_fundo.yy",},},},"Disabled":false,"id":"9a3a7de5-2ab5-47bf-9e07-8b9393719841","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

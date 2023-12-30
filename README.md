@@ -8,4 +8,5 @@
 - Discord não aparece, dll com erro
 
 # Atualizar
--
+- Audio com fade out após ir para tela de fimdejogo
+- Pontos são subtraidos pelos erros ao final e isso é mostrado visualmente

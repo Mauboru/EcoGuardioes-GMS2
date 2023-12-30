@@ -17,14 +17,15 @@ if(timer <= 0){
 	encheu = true;
 }
 
-//Lógica para fim de tempo
-if (timer == 0){
-	//Faz a maré encher
-}
-
 //Criando o objeto de tela de fim de jogo
 if (encheu){
-	
+	if(!instance_exists(obj_tela)){
+		var _tela =instance_create_layer(x, y, "HUD", obj_tela);
+		//_tela.tipo = "fimdejogo";
+		_tela.x = room_width/2;
+		_tela.y = room_height/2;
+		_tela.erros = instance_number(obj_lixo);
+	}
 }
 
 #region Discord

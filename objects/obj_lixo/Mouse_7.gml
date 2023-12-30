@@ -20,6 +20,7 @@ if (_inst_lixeira != noone && _inst_lixeira.destacado && tipo == _inst_lixeira.t
 
 //Estou na lixeira incorreta
 if(_inst_lixeira != noone && _inst_lixeira.destacado && tipo != _inst_lixeira.tipo){
+	instance_create_layer(x, y, "Instances", obj_screenshake);
 	obj_controller.pontos -= 2;
 	var _pontos = instance_create_layer(room_width/2, room_height/2, "Instances", obj_pontuacao);
     _pontos.score_value = "-2";
