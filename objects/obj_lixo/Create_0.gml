@@ -1,3 +1,5 @@
+randomize();
+
 //Variaveis
 gravidade = 0.5;
 clicado = false;

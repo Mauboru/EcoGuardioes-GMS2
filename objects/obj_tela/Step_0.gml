@@ -13,3 +13,10 @@ alpha = clamp(alpha, 0, 1);
 if (mudei && alpha <= 0) {
 	instance_destroy();
 }
+
+if(alpha == 1){
+	//Inserindo os bonus
+	for(var _i = 1; _i < 4; _i++){
+		instance_create_layer(80 + _i * 72, 550, "HUD", obj_bonus);
+	}
+}

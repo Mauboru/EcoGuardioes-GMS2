@@ -1,3 +1,5 @@
+randomize();
+
 direction = 0;
 speed = random_range(.8, 1.2); 
 
