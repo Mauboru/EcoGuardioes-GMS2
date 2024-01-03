@@ -1,5 +1,5 @@
 direction = 0;
-speed = 1.2; 
+speed = random_range(.8, 1.2); 
 
 amplitude = 3;
 frequency = .3;

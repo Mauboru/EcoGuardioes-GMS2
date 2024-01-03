@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprBar",
-    "path": "sprites/sprBar/sprBar.yy",
+    "name": "spr_barra",
+    "path": "sprites/spr_barra/spr_barra.yy",
   },
   "spriteMaskId": null,
   "visible": true,

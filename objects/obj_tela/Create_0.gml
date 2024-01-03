@@ -1,7 +1,9 @@
 //Variaveis
 alpha = 0;
 fade_speed = .02
+
 mudei = false;
-pontuacao = obj_controller.pontos;
+pontuacao = 0;
 erros = 0;
-musica_volume = 0;
+lixos = 0;
+pontuacao_final = false;

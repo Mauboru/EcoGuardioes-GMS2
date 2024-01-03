@@ -1,4 +1,4 @@
-var _mare_encheu = obj_controller.encheu
+var _mare_timer = obj_controller.timer
 
 x += lengthdir_x(speed, direction); // Movimentação horizontal
 y += lengthdir_y(speed, direction); // Movimentação vertical
@@ -14,7 +14,7 @@ if (x + sprite_width <= 0 || x + sprite_width >= room_width) {
 if (limite <= 0) instance_destroy();
 
 //Se a maré encheu
-if (_mare_encheu) instance_destroy();
+if (_mare_timer > 0 and _mare_timer < 5) instance_destroy();
 
 time += 1; // Atualiza a variável de tempo
 

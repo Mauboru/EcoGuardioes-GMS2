@@ -6,7 +6,7 @@ _instancias_a_adicionar = min(_instancias_a_adicionar, 2);
 // Cria as instâncias necessárias
 if (_instancias_a_adicionar > 0) {
     repeat(_instancias_a_adicionar) {
-        alarm[0] = irandom_range(0, 300);
+        alarm[0] = irandom_range(0, 230);
     }
 }
 
@@ -21,10 +21,14 @@ if(timer <= 0){
 if (encheu){
 	if(!instance_exists(obj_tela)){
 		var _tela =instance_create_layer(x, y, "HUD", obj_tela);
-		//_tela.tipo = "fimdejogo";
 		_tela.x = room_width/2;
 		_tela.y = room_height/2;
-		_tela.erros = instance_number(obj_lixo);
+		_tela.erros = erros;
+		_tela.pontuacao = pontos;
+		_tela.lixos = instance_number(obj_lixo);
+		
+		if(instance_number(obj_lixo) != 0) _tela.image_index = 0;
+		else _tela.image_index = 1;
 	}
 }
 

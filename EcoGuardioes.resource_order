@@ -8,6 +8,8 @@
     {"name":"Fontes","order":5,"path":"folders/Fontes.yy",},
     {"name":"Linhas do tempo","order":10,"path":"folders/Linhas do tempo.yy",},
     {"name":"Objects","order":1,"path":"folders/Objects.yy",},
+    {"name":"Effects","order":8,"path":"folders/Objects/Effects.yy",},
+    {"name":"HUD","order":9,"path":"folders/Objects/HUD.yy",},
     {"name":"Particle Systems","order":14,"path":"folders/Particle Systems.yy",},
     {"name":"Rooms","order":2,"path":"folders/Rooms.yy",},
     {"name":"Scripts","order":4,"path":"folders/Scripts.yy",},
@@ -17,8 +19,6 @@
     {"name":"Sons","order":3,"path":"folders/Sons.yy",},
     {"name":"HUD","order":14,"path":"folders/Sprites/HUD.yy",},
     {"name":"FimdeJogo","order":3,"path":"folders/Sprites/HUD/FimdeJogo.yy",},
-    {"name":"Effects","order":8,"path":"folders/Objects/Effects.yy",},
-    {"name":"HUD","order":9,"path":"folders/Objects/HUD.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"sprPraia","order":2,"path":"sprites/sprPraia/sprPraia.yy",},

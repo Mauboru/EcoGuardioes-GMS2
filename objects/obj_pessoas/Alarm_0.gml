@@ -14,4 +14,4 @@ _obj_lixo.vspeed = _vspeed_initial;
 
 _obj_lixo.image_angle = irandom(360); 
 
-alarm[0] = irandom_range(80, 400);
+alarm[0] = irandom_range(0, 300);
