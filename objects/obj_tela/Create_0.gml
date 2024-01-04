@@ -7,3 +7,4 @@ pontuacao = 0;
 erros = 0;
 lixos = 0;
 pontuacao_final = false;
+is_bonus = false;

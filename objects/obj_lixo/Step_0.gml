@@ -1,6 +1,4 @@
-var _mare_encheu = obj_controller.encheu
-
-if (!_mare_encheu){
+if (!global.encheu){
 	if (clicado) {
 	    x = mouse_x;
 	    y = mouse_y;

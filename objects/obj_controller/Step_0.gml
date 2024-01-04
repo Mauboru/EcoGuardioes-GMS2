@@ -1,36 +1,58 @@
+//Controla o tempo da mare
+if(global.timer > 0) global.timer -= .02
+if(global.timer <= 0){
+	global.timer = 0
+	global.encheu = true;
+}
+
+show_debug_message(bonus)
+
+#region Pessoas
+
 var _quantidade_desejada = 6;
 var _quantidade_existente = instance_number(obj_pessoas);
 var _instancias_a_adicionar = _quantidade_desejada - _quantidade_existente;
 _instancias_a_adicionar = min(_instancias_a_adicionar, 2);
     
 // Cria as instâncias necessárias
-if (_instancias_a_adicionar > 0) {
+if (_instancias_a_adicionar > 0 and not global.timer <= 5) {
     repeat(_instancias_a_adicionar) {
         alarm[0] = irandom_range(0, 230);
     }
 }
 
-//Controla o tempo da mare
-if(timer > 0) timer -= .02
-if(timer <= 0){
-	timer = 0
-	encheu = true;
-}
+//Deletando inimigos caso ainda existam msm após parare de ser criados
+if (global.timer <= 5 and _quantidade_existente != 0) instance_destroy(obj_pessoas);
+
+#endregion
+
+#region Tela
 
 //Criando o objeto de tela de fim de jogo
-if (encheu){
+if (global.encheu){
 	if(!instance_exists(obj_tela)){
 		var _tela =instance_create_layer(x, y, "HUD", obj_tela);
 		_tela.x = room_width/2;
 		_tela.y = room_height/2;
-		_tela.erros = erros;
-		_tela.pontuacao = pontos;
+		_tela.erros = global.erros;
+		_tela.pontuacao = global.pontos;
 		_tela.lixos = instance_number(obj_lixo);
 		
 		if(instance_number(obj_lixo) != 0) _tela.image_index = 0;
 		else _tela.image_index = 1;
 	}
+}else{
+	instance_destroy(obj_tela);
 }
+
+#endregion
+
+#region Audio
+
+//Iniciando musica caso já n esteja tocando
+if (!audio_is_playing(snd_tema)) audio_play_sound(snd_tema, 1, 1);
+
+#endregion
 
 #region Discord
 
@@ -42,7 +64,7 @@ if (global.discord == true){
 
 #endregion
 
-#region Controles para Debuggar
+#region Debugg
 
 //Tela cheia
 if (keyboard_check(ord("F"))) {
