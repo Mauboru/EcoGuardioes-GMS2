@@ -1,0 +1,3 @@
+if(acao == "reiniciar"){
+	reiniciar();
+}

@@ -41,7 +41,7 @@ if (global.timer <= 5 and _quantidade_existente != 0) instance_destroy(obj_pesso
 //Criando o objeto de tela de fim de jogo
 if (global.encheu){
 	if(!instance_exists(obj_tela)){
-		var _tela =instance_create_layer(x, y, "HUD", obj_tela);
+		var _tela =instance_create_layer(x, y, "Telas", obj_tela);
 		_tela.x = room_width/2;
 		_tela.y = room_height/2;
 		_tela.erros = global.erros;
