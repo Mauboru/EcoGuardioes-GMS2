@@ -1,6 +1,5 @@
 // Evento de colisão com o objeto lixo
 var _bonus = point_in_rectangle(mouse_x, mouse_y, x - sprite_width / 2, y - sprite_height / 2, x + sprite_width / 2, y + sprite_height / 2);
-show_debug_message(global.tipos_existentes)
 if(global.encheu){
 	if (_bonus) {
 	    destacado = true;
