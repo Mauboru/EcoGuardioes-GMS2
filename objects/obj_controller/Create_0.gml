@@ -5,7 +5,7 @@ global.discord_init_app("1190119242058698753");
 */
 
 //Variaveis
-global.timer = 120;
+global.timer = 0;
 global.encheu = false;
 global.fase = 1;
 global.pontos = 0;

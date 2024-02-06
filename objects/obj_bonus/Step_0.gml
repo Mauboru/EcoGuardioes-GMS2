@@ -1,6 +1,6 @@
 // Evento de colisão com o objeto lixo
 var _bonus = point_in_rectangle(mouse_x, mouse_y, x - sprite_width / 2, y - sprite_height / 2, x + sprite_width / 2, y + sprite_height / 2);
-
+show_debug_message(global.tipos_existentes)
 if(global.encheu){
 	if (_bonus) {
 	    destacado = true;
@@ -18,19 +18,28 @@ if(global.encheu){
 	        var _fator_crescimento = tempo_pressao / tempo_maximo_pressao;
 	        image_xscale = 1 + _fator_crescimento * 0.3;
 	        image_yscale = 1 + _fator_crescimento * 0.3;
-			show_debug_message(_fator_crescimento)
 		
 			if(_fator_crescimento > 2.5){
-				var _posicao = instance_position(mouse_x, mouse_y, obj_bonus);
+				//Verifica se player tem pontos suficientes para comprar
+				if (global.pontos >= 50){
+					global.pontos -= 50;
+					var _posicao = instance_position(mouse_x, mouse_y, obj_bonus);
 
-	            if (_posicao != noone && _posicao == id) {
-	                // Adiciona o bônus ao array
-	                var _tipo = _posicao.tipo;
-	                var _novo_bonus = tipo_mapeamento[_tipo];
+		            if (_posicao != noone && _posicao == id) {
+		                // Adiciona o bônus ao array
+		                var _tipo = _posicao.tipo;
+		                var _novo_bonus = tipo_mapeamento[_tipo];
 
-	                // Adicionar o novo bônus ao final do array
-	                array_push(obj_controller.bonus, _novo_bonus)
-	                instance_destroy(_posicao);
+		                // Adicionar o novo bônus ao final do array
+		                array_push(obj_controller.bonus, _novo_bonus)
+		                instance_destroy(_posicao);
+					}
+				}else{
+					//reseta as variáveis
+			        pressionando_bonus = false;
+			        tempo_pressao = 0;
+			        image_xscale = 1;
+			        image_yscale = 1;
 				}
 			}
 	    } else {

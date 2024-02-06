@@ -1,7 +1,7 @@
 function reiniciar(){
 	var _lixos = obj_tela.lixos;
 	
-	global.timer = 120;
+	global.timer = 12;
 	global.fase++;
 	global.pontos -= _lixos * 2;
 	global.erros = 0;

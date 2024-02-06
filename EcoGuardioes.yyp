@@ -58,6 +58,7 @@
     {"id":{"name":"scr_pessoas","path":"scripts/scr_pessoas/scr_pessoas.yy",},},
     {"id":{"name":"obj_screenshake","path":"objects/obj_screenshake/obj_screenshake.yy",},},
     {"id":{"name":"obj_mostra_pontos","path":"objects/obj_mostra_pontos/obj_mostra_pontos.yy",},},
+    {"id":{"name":"scr_bonus","path":"scripts/scr_bonus/scr_bonus.yy",},},
     {"id":{"name":"sprCaicara","path":"sprites/sprCaicara/sprCaicara.yy",},},
     {"id":{"name":"obj_bonus","path":"objects/obj_bonus/obj_bonus.yy",},},
     {"id":{"name":"obj_bar","path":"objects/obj_bar/obj_bar.yy",},},
