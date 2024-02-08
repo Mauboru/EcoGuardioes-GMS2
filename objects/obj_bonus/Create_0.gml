@@ -14,18 +14,20 @@ global.tipo_mapeamento = ["tempo", "lixeiro", "plastico", "metal", "vidro", "pap
 
 // Função para gerar tipos
 function gera_tipos(){
-	var _valor = irandom(array_length(global.tipo_mapeamento) - 1);
-	var _valor_existentes = global.tipos_existentes;
-	
-	if (_valor_existentes == _valor){
-		
-	}
-	
-	return _valor;
+    var _valor = irandom(array_length(global.tipo_mapeamento) - 1);
+    
+    // Verifica se o valor criado já existe dentro de valores existentes
+    for(var _i = 0; _i < array_length(global.tipos_existentes); _i++){
+        if (_valor == global.tipos_existentes[_i]){
+            return gera_tipos();
+        }
+    }
+    return _valor;
 }
 
-if (global.encheu) {	
+if (global.encheu) {    
     tipo = gera_tipos();
     array_push(global.tipos_existentes, tipo);
     image_index = tipo;
 }
+

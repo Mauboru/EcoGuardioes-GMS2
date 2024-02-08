@@ -26,3 +26,6 @@ if(alpha == 1 and not is_bonus){
 	
 	is_bonus = true;
 }
+
+//Resetando a variavel para que ela nao acumule
+if(is_bonus) global.tipos_existentes = [];
