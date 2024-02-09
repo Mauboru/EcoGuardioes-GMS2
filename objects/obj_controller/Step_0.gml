@@ -5,6 +5,8 @@ if(global.timer <= 0){
 	global.encheu = true;
 }
 
+show_debug_message(global.bonus_escolhidos)
+
 #region Bônus
 
 // Verifica se possui bônus, se sim adiciona na tela

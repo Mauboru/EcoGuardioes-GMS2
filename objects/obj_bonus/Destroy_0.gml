@@ -6,6 +6,4 @@ if (global.encheu){
 		_particula.sprite_index = sprite_index;
 		_particula.image_index = image_index;
 	}
-}else{
-	//faz nada só some
 }
