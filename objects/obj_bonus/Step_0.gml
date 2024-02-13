@@ -25,20 +25,8 @@ if(global.encheu){
 					var _posicao = instance_position(mouse_x, mouse_y, obj_bonus);
 
 		            if (_posicao != noone && _posicao == id) {
-		                // Adiciona o bônus ao array
 		                var _tipo = _posicao.tipo;
-
-		                // Adicionar o novo bônus ao final do array
 			            array_push(global.bonus_escolhidos, _tipo);
-
-			            // Atualizar a matriz de quantidade de bônus escolhidos
-			            var _index = array_find_index(obj_controller.bonus, _tipo); // Encontrar o índice do bônus na lista bonus
-
-			            if (_index != -1) {
-			                // Incrementar a quantidade na matriz
-			                global.tipos_existentes[_index, 1] += 1;
-			            }
-				
 		                instance_destroy(_posicao);
 					}
 				}else{

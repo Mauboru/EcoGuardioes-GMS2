@@ -5,13 +5,13 @@ if(global.timer <= 0){
 	global.encheu = true;
 }
 
-show_debug_message(global.bonus_escolhidos)
-
 #region Bônus
+var _bonus_escolhidos = array_length(global.bonus_escolhidos);
 
 // Verifica se possui bônus, se sim adiciona na tela
-/*if (array_length(bonus) > 0) {
-    for (var _i = 0; _i < array_length(bonus); _i++) {
+/*
+if (_bonus_escolhidos > 0) {
+    for (var _i = 0; _i < _bonus_escolhidos; _i++) {
         var _bonus_existente = instance_create_layer(12 + (64*_i) + (6*_i), 132, "Instances", obj_bonus);
 		_bonus_existente.tipo = _i;
     }

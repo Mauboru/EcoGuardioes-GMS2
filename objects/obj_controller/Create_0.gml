@@ -11,7 +11,6 @@ global.fase = 1;
 global.pontos = 10000;
 global.erros = 0;
 global.tipos_existentes = [];
-global.bonus_escolhidos = [];
 
-//Arrays
-bonus = ["tempo", "luar", "plastico", "metal", "vidro", "papel"];
+
+// Criação da ds_grid

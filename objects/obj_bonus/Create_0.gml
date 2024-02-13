@@ -30,4 +30,3 @@ if (global.encheu) {
     array_push(global.tipos_existentes, tipo);
     image_index = tipo;
 }
-
