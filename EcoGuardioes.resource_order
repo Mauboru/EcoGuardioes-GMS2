@@ -38,6 +38,7 @@
     {"name":"spr_bonus","order":4,"path":"sprites/spr_bonus/spr_bonus.yy",},
     {"name":"discord_init_dll","order":2,"path":"scripts/discord_init_dll/discord_init_dll.yy",},
     {"name":"sprJogo","order":2,"path":"sprites/sprJogo/sprJogo.yy",},
+    {"name":"obj_bonus_grid","order":7,"path":"objects/obj_bonus_grid/obj_bonus_grid.yy",},
     {"name":"obj_limite","order":4,"path":"objects/obj_limite/obj_limite.yy",},
     {"name":"spr_limite","order":10,"path":"sprites/spr_limite/spr_limite.yy",},
     {"name":"obj_lixeira","order":5,"path":"objects/obj_lixeira/obj_lixeira.yy",},

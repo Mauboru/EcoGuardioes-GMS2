@@ -11,6 +11,3 @@ global.fase = 1;
 global.pontos = 10000;
 global.erros = 0;
 global.tipos_existentes = [];
-
-
-// Criação da ds_grid

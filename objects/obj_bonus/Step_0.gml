@@ -26,7 +26,7 @@ if(global.encheu){
 
 		            if (_posicao != noone && _posicao == id) {
 		                var _tipo = _posicao.tipo;
-			            array_push(global.bonus_escolhidos, _tipo);
+			            ds_grid_add(obj_bonus_grid.bonus_escolhidos, 1, _posicao.tipo, 1)
 		                instance_destroy(_posicao);
 					}
 				}else{
