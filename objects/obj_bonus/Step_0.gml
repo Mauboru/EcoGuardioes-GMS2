@@ -1,5 +1,7 @@
 // Evento de colisão com o objeto lixo
-var _bonus = point_in_rectangle(mouse_x, mouse_y, x - sprite_width / 2, y - sprite_height / 2, x + sprite_width / 2, y + sprite_height / 2);
+var _bonus = point_in_rectangle(mouse_x, mouse_y, x - sprite_width / 2,
+y - sprite_height / 2, x + sprite_width / 2, y + sprite_height / 2);
+
 if(global.encheu){
 	if (_bonus) {
 	    destacado = true;
@@ -26,7 +28,7 @@ if(global.encheu){
 
 		            if (_posicao != noone && _posicao == id) {
 		                var _tipo = _posicao.tipo;
-			            ds_grid_add(obj_bonus_grid.bonus_escolhidos, 1, _posicao.tipo, 1)
+			            ds_grid_add(obj_controller.bonus_escolhidos, 1, _posicao.tipo, 1)
 		                instance_destroy(_posicao);
 					}
 				}else{

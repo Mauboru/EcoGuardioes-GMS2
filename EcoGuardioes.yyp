@@ -51,6 +51,7 @@
     {"id":{"name":"sprPraia","path":"sprites/sprPraia/sprPraia.yy",},},
     {"id":{"name":"obj_pessoas","path":"objects/obj_pessoas/obj_pessoas.yy",},},
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},},
+    {"id":{"name":"obj_mostra_bonus","path":"objects/obj_mostra_bonus/obj_mostra_bonus.yy",},},
     {"id":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},},
     {"id":{"name":"spr_lixos","path":"sprites/spr_lixos/spr_lixos.yy",},},
     {"id":{"name":"obj_lixo","path":"objects/obj_lixo/obj_lixo.yy",},},
