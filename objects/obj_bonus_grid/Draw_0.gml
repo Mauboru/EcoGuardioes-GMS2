@@ -8,12 +8,10 @@ draw_sprite(spr_bonus, bonus_escolhidos[# 0, 3], x, y + 105);
 draw_sprite(spr_bonus, bonus_escolhidos[# 0, 4], x, y + 140);
 draw_sprite(spr_bonus, bonus_escolhidos[# 0, 5], x, y + 175);
 
-//Desenhando os numeros
-draw_set_font(fnt_hud)
-draw_text(x + 30, y + -8, string(bonus_escolhidos[# 1, 0]));
-draw_text(x + 30, y + 24, string(bonus_escolhidos[# 1, 1]));
-draw_text(x + 30, y + 56, string(bonus_escolhidos[# 1, 2]));
-draw_text(x + 30, y + 88, string(bonus_escolhidos[# 1, 3]));
-draw_text(x + 30, y + 120, string(bonus_escolhidos[# 1, 4]));
-draw_text(x + 30, y + 152, string(bonus_escolhidos[# 1, 5]));
-draw_set_font(-1)
+//Se for diferente de 0 ele vai desenhar
+for(var _i = 0; _i < 5; _i++){
+	if(ds_grid_get(bonus_escolhidos, 1, _i) != 0){
+		draw_text(x + 6, y + ( _i * 32), string(bonus_escolhidos[# 1, _i]));
+		draw_sprite(spr_bonus_select, _i, x, y + (_i * 32));
+	}
+}

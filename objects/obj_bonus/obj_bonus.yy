@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_bonus",
-    "path": "sprites/spr_bonus/spr_bonus.yy",
+    "name": "spr_bonus_select",
+    "path": "sprites/spr_bonus_select/spr_bonus_select.yy",
   },
   "spriteMaskId": null,
   "visible": true,

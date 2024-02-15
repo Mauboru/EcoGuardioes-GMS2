@@ -5,8 +5,6 @@ if(global.timer <= 0){
 	global.encheu = true;
 }
 
-show_debug_message(obj_bonus_grid.bonus_escolhidos)
-
 #region Pessoas
 
 var _quantidade_desejada = 6;
