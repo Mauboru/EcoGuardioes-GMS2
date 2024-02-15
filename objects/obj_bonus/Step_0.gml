@@ -18,7 +18,7 @@ if(global.encheu){
 	        image_xscale = 1 + _fator_crescimento * 0.3;
 	        image_yscale = 1 + _fator_crescimento * 0.3;
 		
-			if(_fator_crescimento > 2.5){
+			if(_fator_crescimento > 1){
 				//Verifica se player tem pontos suficientes para comprar
 				if (global.pontos >= 50){
 					global.pontos -= 50;
