@@ -1,9 +1,11 @@
 //Controla o tempo da mare
-if(global.timer > 0) global.timer -= .02
+if(global.timer > 0) global.timer -= global.timer_vel
 if(global.timer <= 0){
 	global.timer = 0
 	global.encheu = true;
 }
+
+show_debug_message(global.timer_vel)
 
 #region Pessoas
 
