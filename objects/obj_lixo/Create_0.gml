@@ -1,7 +1,7 @@
 randomize();
 
 //Variaveis
-gravidade = 0.5;
+gravidade = .5;
 clicado = false;
 x_anterior = x;
 y_anterior = y;

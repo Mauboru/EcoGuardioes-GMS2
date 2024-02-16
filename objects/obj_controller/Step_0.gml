@@ -5,8 +5,6 @@ if(global.timer <= 0){
 	global.encheu = true;
 }
 
-show_debug_message(global.timer_vel)
-
 #region Pessoas
 
 var _quantidade_desejada = 6;

@@ -3,7 +3,6 @@ y += lengthdir_y(speed, direction); // Movimentação vertical
 
 // Verificar se o objeto atingiu a borda direita ou esquerda
 if (x + sprite_width <= 0 || x + sprite_width >= room_width) {
-    // Inverter a direção quando atinge a borda
 	limite--;
     direction = 180 - direction;
 	image_xscale *= -1;

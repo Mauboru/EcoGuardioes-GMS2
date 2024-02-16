@@ -12,8 +12,10 @@ global.fase = 1;
 global.pontos = 10000;
 global.erros = 0;
 global.tipos_existentes = [];
+global.is_bonus = false;
 
 #region Bonus
+
 // Criação da ds_grid
 bonus_escolhidos = ds_grid_create(2, 6);
 
