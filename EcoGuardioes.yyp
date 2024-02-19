@@ -73,6 +73,7 @@
     {"id":{"name":"obj_limite","path":"objects/obj_limite/obj_limite.yy",},},
     {"id":{"name":"spr_limite","path":"sprites/spr_limite/spr_limite.yy",},},
     {"id":{"name":"obj_lixeira","path":"objects/obj_lixeira/obj_lixeira.yy",},},
+    {"id":{"name":"obj_texto","path":"objects/obj_texto/obj_texto.yy",},},
     {"id":{"name":"discord_update_presence","path":"scripts/discord_update_presence/discord_update_presence.yy",},},
     {"id":{"name":"rm_jogo","path":"rooms/rm_jogo/rm_jogo.yy",},},
   ],

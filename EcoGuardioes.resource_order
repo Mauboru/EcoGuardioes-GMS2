@@ -44,6 +44,7 @@
     {"name":"obj_limite","order":4,"path":"objects/obj_limite/obj_limite.yy",},
     {"name":"spr_limite","order":10,"path":"sprites/spr_limite/spr_limite.yy",},
     {"name":"obj_lixeira","order":5,"path":"objects/obj_lixeira/obj_lixeira.yy",},
+    {"name":"obj_texto","order":4,"path":"objects/obj_texto/obj_texto.yy",},
     {"name":"discord_update_presence","order":3,"path":"scripts/discord_update_presence/discord_update_presence.yy",},
   ],
 }

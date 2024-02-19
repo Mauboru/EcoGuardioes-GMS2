@@ -1,9 +1,13 @@
+#region Tempo
+
 //Controla o tempo da mare
 if(global.timer > 0) global.timer -= global.timer_vel
 if(global.timer <= 0){
 	global.timer = 0
 	global.encheu = true;
 }
+
+#endregion
 
 #region Pessoas
 
