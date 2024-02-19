@@ -22,6 +22,9 @@
     {"name":"inst_3313FEB5","path":"rooms/rm_jogo/rm_jogo.yy",},
     {"name":"inst_57428DC6","path":"rooms/rm_jogo/rm_jogo.yy",},
     {"name":"inst_68E0C7DB","path":"rooms/rm_jogo/rm_jogo.yy",},
+    {"name":"inst_42245990","path":"rooms/rm_jogo/rm_jogo.yy",},
+    {"name":"inst_17DF19DF","path":"rooms/rm_jogo/rm_jogo.yy",},
+    {"name":"inst_67E7BC6D","path":"rooms/rm_jogo/rm_jogo.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -58,6 +61,15 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3313FEB5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},"propertyId":{"name":"tipo_bt","path":"objects/obj_button/obj_button.yy",},"value":"pause",},
           ],"rotation":0.0,"scaleX":0.71874994,"scaleY":0.73437476,"x":33.754097,"y":30.482674,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_42245990","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_texto","path":"objects/obj_texto/obj_texto.yy",},"properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_texto","path":"objects/obj_texto/obj_texto.yy",},"propertyId":{"name":"tipo","path":"objects/obj_texto/obj_texto.yy",},"value":"bonus",},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":319.0,"y":22.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_17DF19DF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_texto","path":"objects/obj_texto/obj_texto.yy",},"properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_texto","path":"objects/obj_texto/obj_texto.yy",},"propertyId":{"name":"tipo","path":"objects/obj_texto/obj_texto.yy",},"value":"pontos",},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":418.7798,"y":22.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_67E7BC6D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_texto","path":"objects/obj_texto/obj_texto.yy",},"properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_texto","path":"objects/obj_texto/obj_texto.yy",},"propertyId":{"name":"tipo","path":"objects/obj_texto/obj_texto.yy",},"value":"moedas",},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":454.0,"y":73.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Backgrounds_1","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"sprPraia","path":"sprites/sprPraia/sprPraia.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":602,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"sprJogo","path":"sprites/sprJogo/sprJogo.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},

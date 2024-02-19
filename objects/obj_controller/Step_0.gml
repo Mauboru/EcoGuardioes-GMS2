@@ -52,7 +52,7 @@ if (global.encheu){
 #region Audio
 
 //Iniciando musica caso já n esteja tocando
-//if (!audio_is_playing(snd_tema)) audio_play_sound(snd_tema, 1, 1);
+if (!audio_is_playing(snd_tema)) audio_play_sound(snd_tema, 1, 1);
 
 #endregion
 
