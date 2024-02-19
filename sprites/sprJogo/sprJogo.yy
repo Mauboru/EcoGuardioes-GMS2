@@ -2,7 +2,7 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "sprJogo",
-  "bbox_bottom": 511,
+  "bbox_bottom": 811,
   "bbox_left": 0,
   "bbox_right": 511,
   "bbox_top": 0,
@@ -17,7 +17,7 @@
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 512,
+  "height": 812,
   "HTile": false,
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"6c25fba7-b3d8-4abf-8436-fa0130a56d0d","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
