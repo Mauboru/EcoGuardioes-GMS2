@@ -45,7 +45,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1E883E7F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_bar","path":"objects/obj_bar/obj_bar.yy",},"properties":[],"rotation":0.0,"scaleX":7.9999995,"scaleY":2.1093748,"x":0.3728447,"y":665.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_57428DC6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_texto","path":"objects/obj_texto/obj_texto.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_texto","path":"objects/obj_texto/obj_texto.yy",},"propertyId":{"name":"tipo","path":"objects/obj_texto/obj_texto.yy",},"value":"tempo",},
-          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":102.0,"y":22.0,},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":151.0,"y":22.4999,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4CF72A8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_lixeira","path":"objects/obj_lixeira/obj_lixeira.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_lixeira","path":"objects/obj_lixeira/obj_lixeira.yy",},"propertyId":{"name":"tipo","path":"objects/obj_lixeira/obj_lixeira.yy",},"value":"vidro",},
           ],"rotation":0.0,"scaleX":0.26,"scaleY":0.28,"x":112.0,"y":730.4898,},
@@ -63,10 +63,10 @@
           ],"rotation":0.0,"scaleX":0.71874994,"scaleY":0.73437476,"x":33.754097,"y":30.482674,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_42245990","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_texto","path":"objects/obj_texto/obj_texto.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_texto","path":"objects/obj_texto/obj_texto.yy",},"propertyId":{"name":"tipo","path":"objects/obj_texto/obj_texto.yy",},"value":"bonus",},
-          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":319.0,"y":22.0,},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":319.97998,"y":22.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_17DF19DF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_texto","path":"objects/obj_texto/obj_texto.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_texto","path":"objects/obj_texto/obj_texto.yy",},"propertyId":{"name":"tipo","path":"objects/obj_texto/obj_texto.yy",},"value":"pontos",},
-          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":418.7798,"y":22.0,},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":424.83936,"y":22.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_67E7BC6D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_texto","path":"objects/obj_texto/obj_texto.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_texto","path":"objects/obj_texto/obj_texto.yy",},"propertyId":{"name":"tipo","path":"objects/obj_texto/obj_texto.yy",},"value":"moedas",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":454.0,"y":73.0,},
