@@ -32,7 +32,10 @@
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"tipo_bt","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"noone","varType":2,},
   ],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "sButtom",
+    "path": "sprites/sButtom/sButtom.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }
