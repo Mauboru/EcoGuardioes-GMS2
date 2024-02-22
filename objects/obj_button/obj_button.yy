@@ -32,10 +32,7 @@
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"tipo_bt","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"noone","varType":2,},
   ],
   "solid": false,
-  "spriteId": {
-    "name": "spr_button",
-    "path": "sprites/spr_button/spr_button.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }
