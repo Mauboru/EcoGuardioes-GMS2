@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_resume",
+  "name": "obj_play",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],

@@ -14,13 +14,13 @@ function menu_sequence(_seq){
 	var _tar_layer = "UI"
 	var _exit_bt = instance_find(obj_exit,0);
 	var _reso_bt = instance_find(obj_resolution,0);
-	var _resume_bt = instance_find(obj_resume,0);
+	var _resume_bt = instance_find(obj_play,0);
 	var _volume_bt = instance_find(obj_volume,0);
 	var _sequencia = layer_sequence_create(_tar_layer, ui_w * 0.5,ui_h * 0.5, _seq);
 	var _seq_instancia = layer_sequence_get_instance(_sequencia);
 	
 	sequence_instance_override_object(_seq_instancia, obj_exit, _exit_bt); 
-	sequence_instance_override_object(_seq_instancia, obj_resume, _resume_bt); 
+	sequence_instance_override_object(_seq_instancia, obj_play, _resume_bt); 
 	sequence_instance_override_object(_seq_instancia, obj_volume, _volume_bt); 
 	sequence_instance_override_object(_seq_instancia, obj_resolution, _reso_bt); 
 }
