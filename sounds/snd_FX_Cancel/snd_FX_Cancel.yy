@@ -1,10 +1,10 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "snd_FX_Cancel",
+  "name": "snd_fx_cancel",
   "audioGroupId": {
-    "name": "audiogroup_default",
-    "path": "audiogroups/audiogroup_default",
+    "name": "sfx_group",
+    "path": "audiogroups/sfx_group",
   },
   "bitDepth": 1,
   "bitRate": 128,
@@ -17,7 +17,7 @@
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "snd_FX_Cancel.wav",
+  "soundFile": "snd_fx_cancel.wav",
   "type": 0,
   "volume": 1.0,
 }

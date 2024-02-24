@@ -1,10 +1,10 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "snd_FX_Close",
+  "name": "snd_fx_close",
   "audioGroupId": {
-    "name": "audiogroup_default",
-    "path": "audiogroups/audiogroup_default",
+    "name": "sfx_group",
+    "path": "audiogroups/sfx_group",
   },
   "bitDepth": 1,
   "bitRate": 128,
@@ -17,7 +17,7 @@
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "snd_FX_Close.wav",
+  "soundFile": "snd_fx_close.wav",
   "type": 0,
   "volume": 1.0,
 }

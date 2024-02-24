@@ -2,14 +2,22 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_volume",
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+  ],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_buttom","path":"objects/obj_buttom/obj_buttom.yy",},"propertyId":{"name":"texto","path":"objects/obj_buttom/obj_buttom.yy",},"value":"Volume",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_buttom","path":"objects/obj_buttom/obj_buttom.yy",},"propertyId":{"name":"on_click","path":"objects/obj_buttom/obj_buttom.yy",},"value":"fn_volume_buttom",},
+  ],
   "parent": {
     "name": "UI",
     "path": "folders/Objects/UI.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_buttom",
+    "path": "objects/obj_buttom/obj_buttom.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

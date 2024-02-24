@@ -4,12 +4,18 @@
   "name": "obj_play",
   "eventList": [],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_buttom","path":"objects/obj_buttom/obj_buttom.yy",},"propertyId":{"name":"texto","path":"objects/obj_buttom/obj_buttom.yy",},"value":"Jogar",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_buttom","path":"objects/obj_buttom/obj_buttom.yy",},"propertyId":{"name":"on_click","path":"objects/obj_buttom/obj_buttom.yy",},"value":"fn_jogar",},
+  ],
   "parent": {
     "name": "UI",
     "path": "folders/Objects/UI.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_buttom",
+    "path": "objects/obj_buttom/obj_buttom.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

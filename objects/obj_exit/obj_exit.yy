@@ -2,16 +2,20 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_exit",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,},
-  ],
+  "eventList": [],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_buttom","path":"objects/obj_buttom/obj_buttom.yy",},"propertyId":{"name":"texto","path":"objects/obj_buttom/obj_buttom.yy",},"value":"Sair",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_buttom","path":"objects/obj_buttom/obj_buttom.yy",},"propertyId":{"name":"on_click","path":"objects/obj_buttom/obj_buttom.yy",},"value":"fn_exit_buttom",},
+  ],
   "parent": {
     "name": "UI",
     "path": "folders/Objects/UI.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_buttom",
+    "path": "objects/obj_buttom/obj_buttom.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

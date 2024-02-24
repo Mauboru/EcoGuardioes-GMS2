@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "snd_menu",
   "audioGroupId": {
-    "name": "audiogroup_default",
-    "path": "audiogroups/audiogroup_default",
+    "name": "music_group",
+    "path": "audiogroups/music_group",
   },
   "bitDepth": 1,
   "bitRate": 128,

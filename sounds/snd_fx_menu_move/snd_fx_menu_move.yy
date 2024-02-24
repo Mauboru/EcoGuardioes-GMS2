@@ -1,10 +1,10 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "snd_FX_MenuMove",
+  "name": "snd_fx_menu_move",
   "audioGroupId": {
-    "name": "audiogroup_default",
-    "path": "audiogroups/audiogroup_default",
+    "name": "sfx_group",
+    "path": "audiogroups/sfx_group",
   },
   "bitDepth": 1,
   "bitRate": 128,
@@ -17,7 +17,7 @@
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "snd_FX_MenuMove.wav",
+  "soundFile": "snd_fx_menu_move.wav",
   "type": 0,
   "volume": 1.0,
 }
