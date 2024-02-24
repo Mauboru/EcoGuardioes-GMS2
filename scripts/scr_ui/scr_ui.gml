@@ -14,7 +14,7 @@ ui_w = 512;
 ui_h = 800;
 
 function fn_jogar(){
-	room_goto(rm_jogo);
+	
 }
 
 function fn_menu_sequence(_seq){
@@ -42,6 +42,9 @@ function fn_resume_buttom(){
 	}
 }
 */
+
+function fn_pause(){
+}
 
 function fn_volume_buttom(){
     var _cursor = (mouse_x - x) / ui_w;

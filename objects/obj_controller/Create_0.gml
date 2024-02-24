@@ -10,7 +10,6 @@ global.timer_vel = .02;
 global.encheu = false;
 global.fase = 1;
 global.pontos = 0;
-global.pontos_str = "000000";
 global.erros = 0;
 global.tipos_existentes = [];
 global.is_bonus = false;

@@ -9,6 +9,12 @@ if in_pause {
 			if _inst_buttom_hover.on_click != noone{
 				_inst_buttom_hover.on_click();
 			}
+			if (!instance_exists(obj_transition)){
+				if _inst_buttom_hover.destino != noone {
+					var _tran = instance_create_layer(0, 0, "Transitions", obj_transition);
+					_tran.destino = _inst_buttom_hover.destino;
+				}
+			}
 		}
 	}else{
 		in_selection = false;

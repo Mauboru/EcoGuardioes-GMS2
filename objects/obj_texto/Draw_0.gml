@@ -16,7 +16,7 @@ switch(tipo){
 	}
 	
 	case "pontos":{
-		draw_text(x, y, global.pontos_str);
+		draw_text(x, y, global.pontos);
 		break;
 	}
 	

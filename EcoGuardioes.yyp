@@ -54,6 +54,7 @@
     {"id":{"name":"obj_tela","path":"objects/obj_tela/obj_tela.yy",},},
     {"id":{"name":"sArrow","path":"sprites/sArrow/sArrow.yy",},},
     {"id":{"name":"obj_exit","path":"objects/obj_exit/obj_exit.yy",},},
+    {"id":{"name":"obj_transition","path":"objects/obj_transition/obj_transition.yy",},},
     {"id":{"name":"discord_free_app","path":"scripts/discord_free_app/discord_free_app.yy",},},
     {"id":{"name":"obj_particula","path":"objects/obj_particula/obj_particula.yy",},},
     {"id":{"name":"scr_controller","path":"scripts/scr_controller/scr_controller.yy",},},
@@ -62,8 +63,10 @@
     {"id":{"name":"sCross","path":"sprites/sCross/sCross.yy",},},
     {"id":{"name":"sprPraia","path":"sprites/sprPraia/sprPraia.yy",},},
     {"id":{"name":"obj_buttom","path":"objects/obj_buttom/obj_buttom.yy",},},
+    {"id":{"name":"obj_pause","path":"objects/obj_pause/obj_pause.yy",},},
     {"id":{"name":"obj_pessoas","path":"objects/obj_pessoas/obj_pessoas.yy",},},
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},},
+    {"id":{"name":"rm_bonus","path":"rooms/rm_bonus/rm_bonus.yy",},},
     {"id":{"name":"obj_mostra_bonus","path":"objects/obj_mostra_bonus/obj_mostra_bonus.yy",},},
     {"id":{"name":"sButtom","path":"sprites/sButtom/sButtom.yy",},},
     {"id":{"name":"obj_menu_manager","path":"objects/obj_menu_manager/obj_menu_manager.yy",},},
@@ -105,6 +108,7 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"roomId":{"name":"rm_jogo","path":"rooms/rm_jogo/rm_jogo.yy",},},
+    {"roomId":{"name":"rm_bonus","path":"rooms/rm_bonus/rm_bonus.yy",},},
   ],
   "templateType": null,
   "TextureGroups": [
