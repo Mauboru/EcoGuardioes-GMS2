@@ -18,9 +18,9 @@ _instancias_a_adicionar = min(_instancias_a_adicionar, 2);
     
 // Cria as instâncias necessárias
 if (_instancias_a_adicionar > 0 and not global.timer <= 5) {
-    repeat(_instancias_a_adicionar) {
-        alarm[0] = irandom_range(0, 230);
-    }
+	repeat(_instancias_a_adicionar) {
+	    alarm[0] = irandom_range(0, 230);
+	}
 }
 
 //Deletando inimigos caso ainda existam msm após parare de ser criados

@@ -7,7 +7,7 @@ draw_set_font(fnt_pixel);
 
 // Verifique se a fonte é válida antes de definir o tamanho da fonte
 if (font_exists(fnt_pixel)) {
-    draw_set_font_size(tamanho_da_fonte);
+    //draw_set_font_size(tamanho_da_fonte);
 
     draw_set_color(c_black);
     draw_set_halign(fa_center);
@@ -20,7 +20,7 @@ if (font_exists(fnt_pixel)) {
     draw_set_color(-1);
     draw_set_halign(-1);
     draw_set_valign(-1);
-    draw_set_font_size(-1); // Certifique-se de redefinir o tamanho da fonte para o padrão
+   // draw_set_font_size(-1); // Certifique-se de redefinir o tamanho da fonte para o padrão
 } else {
     // Lida com o caso em que a fonte não existe
     show_error("A fonte fnt_pixel não existe.", 1);

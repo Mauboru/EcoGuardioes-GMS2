@@ -30,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprCaicara",
-    "path": "sprites/sprCaicara/sprCaicara.yy",
+    "name": "spr_pessoas",
+    "path": "sprites/spr_pessoas/spr_pessoas.yy",
   },
   "spriteMaskId": null,
   "visible": true,
