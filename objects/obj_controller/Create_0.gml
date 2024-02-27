@@ -1,19 +1,3 @@
-//Discord
-/*
-discord_init_dll();
-global.discord_init_app("1190119242058698753");
-*/
-
-//Variaveis
-global.timer = 120;
-global.timer_vel = .02;
-global.encheu = false;
-global.fase = 1;
-global.pontos = 0;
-global.erros = 0;
-global.tipos_existentes = [];
-global.is_bonus = false;
-
 #region Bonus
 
 // Criação da ds_grid

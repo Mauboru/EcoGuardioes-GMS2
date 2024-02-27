@@ -1,6 +1,5 @@
 randomize();
 
-//Variaveis
 gravidade = .5;
 clicado = false;
 x_anterior = x;

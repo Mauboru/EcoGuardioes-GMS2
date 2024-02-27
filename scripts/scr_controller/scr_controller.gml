@@ -1,11 +1,20 @@
-function reiniciar(){
-	var _lixos = obj_tela.lixos;
-	
-	global.timer = 120;
-	global.fase++;
-	global.pontos -= _lixos * 2;
-	global.erros = 0;
-	global.encheu = false;
+globalvar timer, timer_vel, encheu, fase, pontos, erros, tipos_existentes, is_bonus;
+
+timer = 45;
+timer_vel = .02;
+encheu = false;
+fase = 1;
+pontos = 0;
+erros = 0;
+tipos_existentes = [];
+is_bonus = false;
+
+function reiniciar(){	
+	fase++;
+	timer += 60 * fase;
+	//pontos -= _lixos * 2;
+	erros = 0;
+	encheu = false;
 	
 	//Destruindo pq n sei como fazer de outro jeito
 	instance_destroy(obj_lixo);

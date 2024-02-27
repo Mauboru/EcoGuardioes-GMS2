@@ -1,3 +1,6 @@
+if !in_pause depth = -5000;
+else depth = 0;
+
 if (!global.encheu){
 	if (clicado) {
 	    x = mouse_x;

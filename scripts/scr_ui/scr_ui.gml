@@ -13,8 +13,22 @@ k_down = vk_down;
 ui_w = 512;
 ui_h = 800;
 
+function transition(_room){
+	if (!instance_exists(obj_transition)){
+		var _tran = instance_create_layer(0, 0, "Transitions", obj_transition);
+		_tran.destino = _room;
+	}
+}
+
 function fn_jogar(){
 	in_pause = false;
+	transition(rm_cutscene)
+}
+
+function fn_resume(){
+	in_pause = false;
+	reiniciar();
+	transition(rm_jogo);
 }
 
 function fn_menu_sequence(_seq){
@@ -31,17 +45,6 @@ function fn_menu_sequence(_seq){
 	sequence_instance_override_object(_seq_instancia, obj_volume, _volume_bt); 
 	//sequence_instance_override_object(_seq_instancia, obj_resolution, _reso_bt); 
 }
-	
-/*
-function fn_resume_buttom(){
-	if mouse_check_button_pressed(k_accept){
-		fn_menu_sequence(seq_menu_in);
-		audio_play_sound(snd_fx_select,1,false);
-		in_pause = false;
-		obj_menu_manager.in_selection = false; 
-	}
-}
-*/
 
 function fn_pause(){
 }
