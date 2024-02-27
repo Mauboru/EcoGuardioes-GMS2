@@ -1,3 +1,25 @@
+if in_pause {
+	speed = 0;
+	image_speed = 0;
+	exit;
+}else{
+	speed = random_range(.8, 1.2);
+	image_speed = 3;
+}
+
+//Caso foi pausado ele retorna a jogar lixo
+var _quantidade_desejada = 20;
+var _quantidade_existente = instance_number(obj_lixo);
+var _instancias_a_adicionar = _quantidade_desejada - _quantidade_existente;
+_instancias_a_adicionar = min(_instancias_a_adicionar, 2);
+    
+// Cria as instâncias necessárias
+if (_instancias_a_adicionar > 0) {
+	repeat(_instancias_a_adicionar) {
+	    alarm[0] = irandom_range(0, 300);
+	}
+}
+
 x += lengthdir_x(speed, direction); // Movimentação horizontal
 y += lengthdir_y(speed, direction); // Movimentação vertical
 

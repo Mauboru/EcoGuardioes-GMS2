@@ -1,12 +1,10 @@
 randomize();
 
 direction = 0;
-speed = random_range(.8, 1.2); 
+speed = random_range(.8, 1.2);
 
 amplitude = 3;
 frequency = .3;
 time = 0;
 initial_y = y;
 limite = choose(2, 3);
-
-alarm[0] = irandom_range(60, 300);

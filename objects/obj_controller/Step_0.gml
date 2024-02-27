@@ -1,3 +1,5 @@
+if in_pause exit;
+
 #region Tempo
 
 //Controla o tempo da mare

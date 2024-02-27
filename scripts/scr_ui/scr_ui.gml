@@ -14,7 +14,7 @@ ui_w = 512;
 ui_h = 800;
 
 function fn_jogar(){
-	
+	in_pause = false;
 }
 
 function fn_menu_sequence(_seq){
