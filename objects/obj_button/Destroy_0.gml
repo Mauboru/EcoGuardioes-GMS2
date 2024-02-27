@@ -1,3 +1,0 @@
-if(acao == "reiniciar"){
-	reiniciar();
-}

@@ -70,18 +70,20 @@ if (global.discord == true){
 
 #region Debugg
 
-//Tela cheia
-if (keyboard_check(ord("F"))) {
-    if(window_get_fullscreen()){
-		window_set_fullscreen(false);
-	}else{
-		window_set_fullscreen(true);
-	}
-}
-
 //Reinicia o jogo
 if (keyboard_check_pressed(vk_f1)){
 	game_restart();
+}
+
+//Vai para room escolhida
+if keyboard_check_pressed(vk_numpad1){
+	room_goto(rm_menu)	
+}
+if keyboard_check_pressed(vk_numpad2){
+	room_goto(rm_jogo)	
+}
+if keyboard_check_pressed(vk_numpad3){
+	room_goto(rm_bonus)	
 }
 
 #endregion

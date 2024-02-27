@@ -22,7 +22,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Linhas do tempo","folderPath":"folders/Linhas do tempo.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objects","folderPath":"folders/Objects.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Effects","folderPath":"folders/Objects/Effects.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"HUD","folderPath":"folders/Objects/HUD.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"UI","folderPath":"folders/Objects/UI.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Particle Systems","folderPath":"folders/Particle Systems.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rooms","folderPath":"folders/Rooms.yy",},
@@ -36,6 +35,8 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"HUD","folderPath":"folders/Sprites/HUD.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"FimdeJogo","folderPath":"folders/Sprites/HUD/FimdeJogo.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"UI","folderPath":"folders/Sprites/UI.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Buttons","folderPath":"folders/Objects/UI/Buttons.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Misc","folderPath":"folders/Objects/Misc.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"discord_rich_presence.dll","CopyToMask":-1,"filePath":"datafiles",},
@@ -49,7 +50,6 @@
   "resources": [
     {"id":{"name":"sPlus","path":"sprites/sPlus/sPlus.yy",},},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
-    {"id":{"name":"fnt_hud","path":"fonts/fnt_hud/fnt_hud.yy",},},
     {"id":{"name":"obj_volume","path":"objects/obj_volume/obj_volume.yy",},},
     {"id":{"name":"obj_tela","path":"objects/obj_tela/obj_tela.yy",},},
     {"id":{"name":"sArrow","path":"sprites/sArrow/sArrow.yy",},},
@@ -71,7 +71,6 @@
     {"id":{"name":"obj_mostra_bonus","path":"objects/obj_mostra_bonus/obj_mostra_bonus.yy",},},
     {"id":{"name":"sButtom","path":"sprites/sButtom/sButtom.yy",},},
     {"id":{"name":"obj_menu_manager","path":"objects/obj_menu_manager/obj_menu_manager.yy",},},
-    {"id":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},},
     {"id":{"name":"spr_lixos","path":"sprites/spr_lixos/spr_lixos.yy",},},
     {"id":{"name":"obj_lixo","path":"objects/obj_lixo/obj_lixo.yy",},},
     {"id":{"name":"discord_init_app","path":"scripts/discord_init_app/discord_init_app.yy",},},
