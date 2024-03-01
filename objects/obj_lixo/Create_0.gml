@@ -4,7 +4,6 @@ gravidade = .5;
 clicado = false;
 x_anterior = x;
 y_anterior = y;
-
 papel = 0;
 vidro = 1;
 plastico = 2;

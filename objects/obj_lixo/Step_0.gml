@@ -1,15 +1,14 @@
 if !in_pause depth = -5000;
 else depth = 0;
 
-if (!global.encheu){
+if (_fase_terminou){
 	if (clicado) {
 	    x = mouse_x;
 	    y = mouse_y;
 	
 		vspeed = 0;
 		hspeed = 0;
-	}
-	else {
+	} else {
 		vspeed += gravidade;
 		x += hspeed;
 		y += vspeed;

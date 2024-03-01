@@ -1,6 +1,3 @@
-#region Bonus
-
-// Criação da ds_grid
 bonus_escolhidos = ds_grid_create(2, 6);
 
 //Icones dos bonus
@@ -18,5 +15,3 @@ ds_grid_set(bonus_escolhidos, 1, 2, 3); //plastico
 ds_grid_set(bonus_escolhidos, 1, 3, 3); //metal
 ds_grid_set(bonus_escolhidos, 1, 4, 3); //vidro
 ds_grid_set(bonus_escolhidos, 1, 5, 3); //papel
-
-#endregion

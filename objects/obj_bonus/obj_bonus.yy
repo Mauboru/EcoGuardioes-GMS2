@@ -28,11 +28,13 @@
   "physicsShape": 1,
   "physicsShapePoints": [],
   "physicsStartAwake": true,
-  "properties": [],
+  "properties": [
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"bonus","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0","varType":1,},
+  ],
   "solid": false,
   "spriteId": {
-    "name": "spr_bonus_select",
-    "path": "sprites/spr_bonus_select/spr_bonus_select.yy",
+    "name": "spr_bonus",
+    "path": "sprites/spr_bonus/spr_bonus.yy",
   },
   "spriteMaskId": null,
   "visible": true,

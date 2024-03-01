@@ -1,4 +1,4 @@
-globalvar in_pause, music_vol, sfx_vol, k_accept, k_confirm, k_cancel, k_left, k_right, k_up, k_down, ui_w, ui_h;
+globalvar in_pause, music_vol, sfx_vol, k_accept, k_confirm, k_cancel, k_left, k_right, k_up, k_down, _audio;
 
 in_pause = false;
 music_vol = 1;
@@ -10,112 +10,55 @@ k_left = vk_left;
 k_right = vk_right;
 k_up = vk_up;
 k_down = vk_down;
-ui_w = 512;
-ui_h = 800;
+_audio = 100;
 
-function transition(_room){
-	if (!instance_exists(obj_transition)){
-		var _tran = instance_create_layer(0, 0, "Transitions", obj_transition);
-		_tran.destino = _room;
-	}
+function fn_menu_sequence(_seq){
+	var _tar_layer = "UI"
+	var _play_bt = instance_find(obj_play,0);
+	var _volume_bt = instance_find(obj_volume,0);
+	var _exit_bt = instance_find(obj_exit,0);
+	var _sequencia = layer_sequence_create(_tar_layer, room_width * 0.5, room_height * 0.5, _seq);
+	var _seq_instancia = layer_sequence_get_instance(_sequencia);
+	
+	sequence_instance_override_object(_seq_instancia, obj_exit, _exit_bt); 
+	sequence_instance_override_object(_seq_instancia, obj_play, _play_bt); 
+	sequence_instance_override_object(_seq_instancia, obj_volume, _volume_bt); 
 }
 
-function fn_jogar(){
+function fn_jogar_buttom(){
 	in_pause = false;
 	transition(rm_cutscene)
 }
 
-function fn_resume(){
+function fn_volume_buttom(){
+    var _cursor = (mouse_x - x) / room_width;	
+    
+    if (obj_menu_manager.in_selection){
+        if (_cursor > 0){
+            _audio += .1;
+        } else if (_cursor < 0){
+            _audio -= .1;
+        }
+        
+        _audio = clamp(_audio, 0, 1);
+		audio_group_set_gain(music_group, _audio, 30);
+		audio_group_set_gain(sfx_group, _audio, 30);
+		audio_group_set_gain(audiogroup_default, _audio, 30);
+    }
+}
+
+function fn_resume_buttom(){
 	in_pause = false;
 	reiniciar();
 	transition(rm_jogo);
 }
 
-function fn_menu_sequence(_seq){
-	var _tar_layer = "UI"
-	var _exit_bt = instance_find(obj_exit,0);
-	//var _reso_bt = instance_find(obj_resolution,0);
-	var _resume_bt = instance_find(obj_play,0);
-	var _volume_bt = instance_find(obj_volume,0);
-	var _sequencia = layer_sequence_create(_tar_layer, ui_w * 0.5,ui_h * 0.5, _seq);
-	var _seq_instancia = layer_sequence_get_instance(_sequencia);
+function fn_pause_buttom(){
+}
+
+function fn_exit_buttom() {
+    var audio = audio_play_sound(snd_fx_select, 1, false);
 	
-	sequence_instance_override_object(_seq_instancia, obj_exit, _exit_bt); 
-	sequence_instance_override_object(_seq_instancia, obj_play, _resume_bt); 
-	sequence_instance_override_object(_seq_instancia, obj_volume, _volume_bt); 
-	//sequence_instance_override_object(_seq_instancia, obj_resolution, _reso_bt); 
-}
-
-function fn_pause(){
-}
-
-function fn_volume_buttom(){
-    var _cursor = (mouse_x - x) / ui_w;
-    var _volume_control = (mouse_y - y) / ui_h;
-    
-    if (obj_menu_manager.in_selection){
-        // Se clicar fora do botão, voltar para a opção padrão
-        if (_cursor < 0 || _cursor > 1 || _volume_control < 0 || _volume_control > 1){
-            option = 0;
-            texto = "Volume";
-        } else {
-            // Manusear a opção
-            option += _cursor;
-            option = clamp(option, 0, 1);
-            
-            // Se clicar em uma posição específica no botão, mudar para a opção correspondente
-            if (_volume_control < 0.5){
-                option = 0;
-            } else {
-                option = 1;
-            }
-            
-            // Reproduzir som nos movimentos de seleção
-            if (_cursor != 0 || _volume_control != 0){
-                audio_play_sound(snd_fx_menu_move, 1, false);
-            }
-            
-            // Opção 0
-            if option == 0{
-                // Ajustar o volume da música
-                music_vol += _volume_control * 0.05;
-                music_vol = clamp(music_vol, 0, 1);
-                
-                // Atualizar o texto
-                texto = "< Music Volume >\n" + string(round(music_vol * 100)) + "%";
-            } else if option == 1{ // Opção 1
-                
-                // Ajustar o volume dos efeitos sonoros
-                sfx_vol += _volume_control * 0.05;
-                sfx_vol = clamp(sfx_vol, 0, 1);
-                
-                // Atualizar o texto
-                texto = "< SFX Volume >\n" + string(round(sfx_vol * 100)) + "%";
-            }
-        }
-        
-        // Volume em escala quase perfeita
-        // Fórmulas podem ser usadas aqui para uma conversão de onda mais precisa
-        var _realMusic = power(music_vol, 2);
-        var _realFX = power(sfx_vol, 2);
-        
-        // Atualizar o ganho de cada grupo de som
-        audio_group_set_gain(music_group, _realMusic, 30);
-        audio_group_set_gain(sfx_group, _realFX, 30);
-        
-    } else {
-        texto = "Volume";
-    }
-}
-
-function fn_exit_buttom(){
-	if obj_menu_manager.in_selection{
-		texto = "Você quer mesmo sair do jogo??";	
-		if mouse_check_button_pressed(k_accept) {
-			audio_play_sound(snd_fx_select, 1, false);
-			game_end();
-		}
-	}else {
-		texto = "Sair";
-	}
+	while (audio_is_playing(audio))
+    game_end();
 }

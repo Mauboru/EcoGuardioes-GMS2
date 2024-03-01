@@ -1,4 +1,5 @@
 if in_pause exit;
+//if is_room(rm_bonus, room_get_name(room)) exit;
 
 var _xx = choose(32, 416);
 var __pessoas = instance_create_layer(_xx, 592, "Instances", obj_pessoas);
