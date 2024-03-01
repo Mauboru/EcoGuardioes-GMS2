@@ -42,6 +42,8 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Dialogues","folderPath":"folders/Sprites/UI/Dialogues.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Bonus","folderPath":"folders/Objects/UI/Bonus.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Bonus","folderPath":"folders/Sprites/UI/Bonus.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Credits","folderPath":"folders/Objects/UI/Credits.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Credits","folderPath":"folders/Sprites/UI/Credits.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"discord_rich_presence.dll","CopyToMask":-1,"filePath":"datafiles",},
@@ -54,6 +56,7 @@
   },
   "resources": [
     {"id":{"name":"sPlus","path":"sprites/sPlus/sPlus.yy",},},
+    {"id":{"name":"rm_init","path":"rooms/rm_init/rm_init.yy",},},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"id":{"name":"obj_volume","path":"objects/obj_volume/obj_volume.yy",},},
     {"id":{"name":"sArrow","path":"sprites/sArrow/sArrow.yy",},},
@@ -62,6 +65,7 @@
     {"id":{"name":"obj_transition","path":"objects/obj_transition/obj_transition.yy",},},
     {"id":{"name":"obj_particula","path":"objects/obj_particula/obj_particula.yy",},},
     {"id":{"name":"scr_controller","path":"scripts/scr_controller/scr_controller.yy",},},
+    {"id":{"name":"obj_credits","path":"objects/obj_credits/obj_credits.yy",},},
     {"id":{"name":"snd_fx_menu_move","path":"sounds/snd_fx_menu_move/snd_fx_menu_move.yy",},},
     {"id":{"name":"snd_fx_select","path":"sounds/snd_fx_select/snd_fx_select.yy",},},
     {"id":{"name":"sCross","path":"sprites/sCross/sCross.yy",},},
@@ -78,6 +82,7 @@
     {"id":{"name":"sButtom","path":"sprites/sButtom/sButtom.yy",},},
     {"id":{"name":"obj_menu_manager","path":"objects/obj_menu_manager/obj_menu_manager.yy",},},
     {"id":{"name":"spr_lixos","path":"sprites/spr_lixos/spr_lixos.yy",},},
+    {"id":{"name":"spr_credits","path":"sprites/spr_credits/spr_credits.yy",},},
     {"id":{"name":"obj_lixo","path":"objects/obj_lixo/obj_lixo.yy",},},
     {"id":{"name":"scr_dialogue","path":"scripts/scr_dialogue/scr_dialogue.yy",},},
     {"id":{"name":"obj_dialogue","path":"objects/obj_dialogue/obj_dialogue.yy",},},
@@ -115,6 +120,7 @@
     {"id":{"name":"rm_jogo","path":"rooms/rm_jogo/rm_jogo.yy",},},
   ],
   "RoomOrderNodes": [
+    {"roomId":{"name":"rm_init","path":"rooms/rm_init/rm_init.yy",},},
     {"roomId":{"name":"rm_bonus","path":"rooms/rm_bonus/rm_bonus.yy",},},
     {"roomId":{"name":"rm_jogo","path":"rooms/rm_jogo/rm_jogo.yy",},},
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},

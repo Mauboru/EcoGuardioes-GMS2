@@ -24,6 +24,8 @@
     {"name":"Dialogues","order":1,"path":"folders/Sprites/UI/Dialogues.yy",},
     {"name":"Bonus","order":2,"path":"folders/Objects/UI/Bonus.yy",},
     {"name":"Bonus","order":2,"path":"folders/Sprites/UI/Bonus.yy",},
+    {"name":"Credits","order":3,"path":"folders/Objects/UI/Credits.yy",},
+    {"name":"Credits","order":3,"path":"folders/Sprites/UI/Credits.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"sPlus","order":2,"path":"sprites/sPlus/sPlus.yy",},
@@ -42,7 +44,7 @@
     {"name":"obj_pause","order":4,"path":"objects/obj_pause/obj_pause.yy",},
     {"name":"spr_background","order":6,"path":"sprites/spr_background/spr_background.yy",},
     {"name":"obj_pessoas","order":3,"path":"objects/obj_pessoas/obj_pessoas.yy",},
-    {"name":"spr_title","order":3,"path":"sprites/spr_title/spr_title.yy",},
+    {"name":"spr_title","order":4,"path":"sprites/spr_title/spr_title.yy",},
     {"name":"obj_controller","order":7,"path":"objects/obj_controller/obj_controller.yy",},
     {"name":"rm_bonus","order":3,"path":"rooms/rm_bonus/rm_bonus.yy",},
     {"name":"obj_resume","order":5,"path":"objects/obj_resume/obj_resume.yy",},
