@@ -2,7 +2,7 @@ globalvar timer, timer_vel, _fase_terminou, fase, pontos, erros, tipos_existente
 
 timer =20;
 timer_vel = .02;
-_fase_terminou = true; //Remover isso
+_fase_terminou = true; //Transformar em False
 fase = 1;
 pontos = 0;
 erros = 0;

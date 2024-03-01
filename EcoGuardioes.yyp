@@ -40,6 +40,8 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"UI","folderPath":"folders/Sprites/UI.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Buttons","folderPath":"folders/Sprites/UI/Buttons.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Dialogues","folderPath":"folders/Sprites/UI/Dialogues.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Bonus","folderPath":"folders/Objects/UI/Bonus.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Bonus","folderPath":"folders/Sprites/UI/Bonus.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"discord_rich_presence.dll","CopyToMask":-1,"filePath":"datafiles",},
@@ -103,6 +105,7 @@
     {"id":{"name":"snd_dialog_part1","path":"sounds/snd_dialog_part1/snd_dialog_part1.yy",},},
     {"id":{"name":"sRest","path":"sprites/sRest/sRest.yy",},},
     {"id":{"name":"snd_menu","path":"sounds/snd_menu/snd_menu.yy",},},
+    {"id":{"name":"obj_description","path":"objects/obj_description/obj_description.yy",},},
     {"id":{"name":"obj_limite","path":"objects/obj_limite/obj_limite.yy",},},
     {"id":{"name":"fnt_pixel","path":"fonts/fnt_pixel/fnt_pixel.yy",},},
     {"id":{"name":"spr_limite","path":"sprites/spr_limite/spr_limite.yy",},},
@@ -112,9 +115,9 @@
     {"id":{"name":"rm_jogo","path":"rooms/rm_jogo/rm_jogo.yy",},},
   ],
   "RoomOrderNodes": [
+    {"roomId":{"name":"rm_bonus","path":"rooms/rm_bonus/rm_bonus.yy",},},
     {"roomId":{"name":"rm_jogo","path":"rooms/rm_jogo/rm_jogo.yy",},},
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
-    {"roomId":{"name":"rm_bonus","path":"rooms/rm_bonus/rm_bonus.yy",},},
     {"roomId":{"name":"rm_cutscene","path":"rooms/rm_cutscene/rm_cutscene.yy",},},
   ],
   "templateType": null,

@@ -1,0 +1,1 @@
+texto = "Parabéns Guardião! Escolha sua Recompensa!!";
