@@ -17,6 +17,14 @@ if (current_frame <= fade_and_scale_duration) {
     current_frame++;
 
     if (_fade_out_frame >= fade_and_scale_duration) {
-         instance_destroy();
+        if (image_index < image_number - 1) {
+            var _novo_credito = instance_create_layer(x, y, layer, obj_credits);
+            _novo_credito.image_index = image_index + 1;
+            _novo_credito.image_alpha = 0;
+			instance_destroy();
+        } else {
+			transition(rm_menu);
+			 instance_destroy();
+        }
     }
 }
