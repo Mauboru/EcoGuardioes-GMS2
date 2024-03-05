@@ -10,7 +10,6 @@ k_left = vk_left;
 k_right = vk_right;
 k_up = vk_up;
 k_down = vk_down;
-_audio = 100;
 
 function fn_menu_sequence(_seq){
 	var _tar_layer = "UI"
@@ -31,34 +30,15 @@ function fn_jogar_buttom(){
 }
 
 function fn_volume_buttom(){
-    var _cursor = (mouse_x - x) / room_width;	
     
-    if (obj_menu_manager.in_selection){
-        if (_cursor > 0){
-            _audio += .1;
-        } else if (_cursor < 0){
-            _audio -= .1;
-        }
-        
-        _audio = clamp(_audio, 0, 1);
-		audio_group_set_gain(music_group, _audio, 30);
-		audio_group_set_gain(sfx_group, _audio, 30);
-		audio_group_set_gain(audiogroup_default, _audio, 30);
-    }
-}
-
-function fn_resume_buttom(){
-	in_pause = false;
-	reiniciar();
-	transition(rm_jogo);
 }
 
 function fn_pause_buttom(){
 }
 
 function fn_exit_buttom() {
-    var audio = audio_play_sound(snd_fx_select, 1, false);
+    var _audio = audio_play_sound(snd_fx_select, 1, false);
 	
-	while (audio_is_playing(audio))
+	while (audio_is_playing(_audio))
     game_end();
 }

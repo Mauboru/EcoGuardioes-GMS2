@@ -19,7 +19,7 @@ if (fade_in >= 1) {
 		image_alpha = 0;
 		image_xscale = 1;
 		image_yscale = 1;
-		timer = 60 * 1.5;
+		timer = 60;
 		fade_in = 0;
 		fade_out = 1;
 	}

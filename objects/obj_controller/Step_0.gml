@@ -1,5 +1,7 @@
 if in_pause exit;
 
+var _room_name = room_get_name(room);
+
 if room_get_name(room) == "rm_jogo" {
 	
 	#region Tempo
@@ -34,22 +36,24 @@ if room_get_name(room) == "rm_jogo" {
 	#endregion
 }
 
-#region Debugg
+#region Musics
 
-//Reinicia o jogo
-if (keyboard_check_pressed(vk_f1)){
-	game_restart();
+switch (_room_name) {
+    case "rm_init":
+        if (!audio_is_playing(snd_manguezal)) audio_play_sound(snd_manguezal, 1, 1);
+        break;
+	case "rm_cutscene":
+		break;
+	case "rm_menu":
+	    if (!audio_is_playing(snd_menu)) audio_play_sound(snd_menu, 1, 1);
+		break;
+	case "rm_jogo":
+		break;
+    default:
+        audio_stop_all();
+        break;
 }
 
-//Vai para room escolhida
-if keyboard_check_pressed(vk_numpad1){
-	room_goto(rm_menu)	
-}
-if keyboard_check_pressed(vk_numpad2){
-	room_goto(rm_jogo)
-}
-if keyboard_check_pressed(vk_numpad3){
-	room_goto(rm_bonus)	
-}
+show_debug_message(_room_name);
 
 #endregion
