@@ -1,3 +1,5 @@
+randomize();
+
 if in_pause exit;
 
 var _room_name = room_get_name(room);
@@ -11,7 +13,7 @@ if room_get_name(room) == "rm_jogo" {
 	if(timer <= 0){
 		timer = 0
 		_fase_terminou = true;
-		transition(rm_bonus);
+		room_goto(rm_fim_de_jogo);
 	}
 
 	#endregion
@@ -36,24 +38,37 @@ if room_get_name(room) == "rm_jogo" {
 	#endregion
 }
 
-#region Musics
+#region Room Control
 
 switch (_room_name) {
     case "rm_init":
-        if (!audio_is_playing(snd_manguezal)) audio_play_sound(snd_manguezal, 1, 1);
+        if (!audio_is_playing(snd_manguezal)) audio_play_sound(snd_manguezal, 1, 0);
         break;
 	case "rm_cutscene":
+		//if (!audio_is_playing(snd_cutscene)) audio_play_sound(snd_menu, 1, 1);
 		break;
 	case "rm_menu":
 	    if (!audio_is_playing(snd_menu)) audio_play_sound(snd_menu, 1, 1);
 		break;
 	case "rm_jogo":
+		if (!audio_is_playing(snd_tema)) audio_play_sound(snd_tema, 1, 1);
 		break;
+	case "rm_fim_de_jogo":
+	    var _layer_id = layer_get_id("bk_water");
+	    var newY = layer_get_y(_layer_id);
+		
+		if newY <= 500 newY = 500;
+		else {
+			newY -= random_range(.8, 1.5)
+			layer_y(_layer_id, newY);
+			layer_set_visible(_layer_id, true)
+		}
+
+	    if (!audio_is_playing(snd_menu)) audio_play_sound(snd_menu, 1, 1);
+	    break;
     default:
         audio_stop_all();
         break;
 }
-
-show_debug_message(_room_name);
 
 #endregion

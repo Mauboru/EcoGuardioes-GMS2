@@ -1,5 +1,5 @@
-if !in_pause depth = -5000;
-else depth = 0;
+if !in_pause depth = 0;
+else depth = -5000;
 
 if (_fase_terminou){
 	if (clicado) {
