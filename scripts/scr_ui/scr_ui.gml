@@ -29,6 +29,11 @@ function fn_jogar_buttom(){
 	transition(rm_cutscene)
 }
 
+function fn_resume_buttom(){
+	reiniciar();
+	transition(rm_jogo)
+}
+
 function fn_volume_buttom(){
     
 }

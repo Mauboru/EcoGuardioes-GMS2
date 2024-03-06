@@ -7,6 +7,8 @@ if in_pause {
 	image_speed = 3;
 }
 
+if room_get_name(room) != "rm_jogo" instance_destroy()
+
 //Caso foi pausado ele retorna a jogar lixo
 var _quantidade_desejada = 20;
 var _quantidade_existente = instance_number(obj_lixo);

@@ -8,9 +8,8 @@ papel = 0;
 vidro = 1;
 plastico = 2;
 metal = 3;
-
+flutua = false;
 tipo = irandom(3);
-image_speed = 0;
 
 switch (tipo) {
     case papel:

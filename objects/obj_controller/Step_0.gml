@@ -4,43 +4,7 @@ if in_pause exit;
 
 var _room_name = room_get_name(room);
 
-if room_get_name(room) == "rm_jogo" {
-	
-	#region Tempo
-
-	//Controla o tempo da mare
-	if(timer > 0) timer -= timer_vel
-	if(timer <= 0){
-		timer = 0
-		_fase_terminou = true;
-		room_goto(rm_fim_de_jogo);
-	}
-
-	#endregion
-
-	#region Pessoas
-
-	var _quantidade_desejada = 6;
-	var _quantidade_existente = instance_number(obj_pessoas);
-	var _instancias_a_adicionar = _quantidade_desejada - _quantidade_existente;
-	_instancias_a_adicionar = min(_instancias_a_adicionar, 2);
-    
-	// Cria as instâncias necessárias
-	if (_instancias_a_adicionar > 0 and not timer <= 5) {
-		repeat(_instancias_a_adicionar) {
-		    alarm[0] = irandom_range(0, 230);
-		}
-	}
-
-	//Deletando inimigos caso ainda existam msm após parare de ser criados
-	if (timer <= 5 and _quantidade_existente != 0) instance_destroy(obj_pessoas);
-
-	#endregion
-}
-
-#region Room Control
-
-switch (_room_name) {
+switch (_room_name) {	
     case "rm_init":
         if (!audio_is_playing(snd_manguezal)) audio_play_sound(snd_manguezal, 1, 0);
         break;
@@ -52,16 +16,45 @@ switch (_room_name) {
 		break;
 	case "rm_jogo":
 		if (!audio_is_playing(snd_tema)) audio_play_sound(snd_tema, 1, 1);
+		
+		#region Tempo
+			//Controla o tempo da mare
+			if(timer > 0) timer -= timer_vel
+			if(timer <= 0){
+				timer = 0
+				_fase_terminou = true;
+				room_goto(rm_fim_de_jogo);
+			}
+		#endregion
+
+		#region Pessoas
+
+		var _quantidade_desejada = 6;
+		var _quantidade_existente = instance_number(obj_pessoas);
+		var _instancias_a_adicionar = _quantidade_desejada - _quantidade_existente;
+		_instancias_a_adicionar = min(_instancias_a_adicionar, 2);
+    
+		// Cria as instâncias necessárias
+		if (_instancias_a_adicionar > 0 and not timer <= 5) {
+			repeat(_instancias_a_adicionar) {
+				alarm[0] = irandom_range(0, 230);
+			}
+		}
+
+		//Deletando inimigos caso ainda existam msm após parare de ser criados
+		if (timer <= 5 and _quantidade_existente != 0) instance_destroy(obj_pessoas);
+
+		#endregion
+		
 		break;
 	case "rm_fim_de_jogo":
 	    var _layer_id = layer_get_id("bk_water");
-	    var newY = layer_get_y(_layer_id);
+	    var _new_y = layer_get_y(_layer_id);
 		
-		if newY <= 500 newY = 500;
+		if  _new_y <= 500  _new_y = 500;
 		else {
-			newY -= random_range(.8, 1.5)
-			layer_y(_layer_id, newY);
-			layer_set_visible(_layer_id, true)
+			 _new_y -= random_range(.8, 1.5)
+			layer_y(_layer_id,  _new_y);
 		}
 
 	    if (!audio_is_playing(snd_menu)) audio_play_sound(snd_menu, 1, 1);
@@ -70,5 +63,3 @@ switch (_room_name) {
         audio_stop_all();
         break;
 }
-
-#endregion
