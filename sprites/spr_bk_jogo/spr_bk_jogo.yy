@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "spr_background",
+  "name": "spr_bk_jogo",
   "bbox_bottom": 799,
   "bbox_left": 0,
   "bbox_right": 511,
@@ -33,7 +33,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "spr_background",
+    "name": "spr_bk_jogo",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -55,8 +55,8 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f408e800-8a93-416d-abe2-0e9c80745b7f","path":"sprites/spr_background/spr_background.yy",},},},"Disabled":false,"id":"f5bdbb04-0504-4845-93af-b588ad9a0d33","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"5fd6b8d6-1c2e-4b2c-8b6d-8ad2df2245f3","path":"sprites/spr_background/spr_background.yy",},},},"Disabled":false,"id":"de5e9792-4d34-419a-981b-924b5bc90736","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f408e800-8a93-416d-abe2-0e9c80745b7f","path":"sprites/spr_bk_jogo/spr_bk_jogo.yy",},},},"Disabled":false,"id":"f5bdbb04-0504-4845-93af-b588ad9a0d33","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"5fd6b8d6-1c2e-4b2c-8b6d-8ad2df2245f3","path":"sprites/spr_bk_jogo/spr_bk_jogo.yy",},},},"Disabled":false,"id":"de5e9792-4d34-419a-981b-924b5bc90736","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

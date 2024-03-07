@@ -1,1 +1,0 @@
-transition(rm_jogo);

@@ -1,9 +1,10 @@
-globalvar timer, timer_vel, fase, pontos;
+globalvar timer, timer_vel, fase, pontos, aparecer;
 
 timer = 35;
 timer_vel = .02;
 fase = 1;
 pontos = 0;
+aparecer = false;
 
 function reiniciar(){	
 	fase += .2;
