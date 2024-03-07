@@ -22,7 +22,6 @@ switch (_room_name) {
 			if(timer > 0) timer -= timer_vel
 			if(timer <= 0){
 				timer = 0
-				_fase_terminou = true;
 				room_goto(rm_fim_de_jogo);
 			}
 		#endregion

@@ -1,7 +1,9 @@
+draw_self();
+
 switch(tipo){
 	case "tempo":{
-		var _horas = string(floor(global.timer / 60));
-		var _minutos = string(floor(global.timer % 60));
+		var _horas = string(floor(timer / 60));
+		var _minutos = string(floor(timer % 60));
 
 		if (string_length(_minutos) == 1) _minutos = "0" + _minutos;
 
@@ -10,18 +12,8 @@ switch(tipo){
 		break;
 	}
 	
-	case "bonus":{
-		draw_text(x, y, "x00");
-		break;
-	}
-	
 	case "pontos":{
-		draw_text(x, y, global.pontos);
-		break;
-	}
-	
-	case "moedas":{
-		draw_text(x, y, "0000");
+		drawing(fnt_ui, c_white, fa_middle, fa_center, x + 40, y + 5, pontos);
 		break;
 	}
 }

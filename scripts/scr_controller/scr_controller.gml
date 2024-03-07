@@ -1,20 +1,15 @@
-globalvar timer, timer_vel, _fase_terminou, fase, pontos, erros;
+globalvar timer, timer_vel, fase, pontos;
 
-timer = 1;
+timer = 35;
 timer_vel = .02;
-_fase_terminou = true; //Transformar em False
 fase = 1;
 pontos = 0;
-erros = 0;
 
 function reiniciar(){	
-	fase++;
-	timer += 60 * fase;
-	//pontos -= _lixos * 2;
-	erros = 0;
-	encheu = false;
+	fase += .2;
+	timer = 35 * fase;
+	pontos = 0;
 	
-	//Destruindo pq n sei como fazer de outro jeito
 	instance_destroy(obj_lixo);
 }
 
