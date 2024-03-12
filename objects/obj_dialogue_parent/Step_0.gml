@@ -4,8 +4,6 @@ if(showing_dialog == false) {
 		transition(rm_jogo)
 		return;
 	}
-	
-	if dialog.count() == 2 aparecer = true;
 	current_dialog = dialog.pop();
 	showing_dialog = true;
 	audio_play_sound(current_dialog.audio, 1, 0);

@@ -10,7 +10,7 @@ switch (_room_name) {
         break;
 	case "rm_cutscene":
 		//if (!audio_is_playing(snd_cutscene)) audio_play_sound(snd_menu, 1, 1);
-		if !in_sequence and aparecer fn_cutscene_sequence(seq_cutscene);
+		if aparecer fn_cutscene_sequence(seq_cutscene);
 		break;
 	case "rm_menu":
 	    if (!audio_is_playing(snd_menu)) audio_play_sound(snd_menu, 1, 1);
