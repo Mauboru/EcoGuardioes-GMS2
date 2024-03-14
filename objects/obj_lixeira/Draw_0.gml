@@ -4,4 +4,6 @@ if (destacado) {
     draw_self();
 }
 
+if room_get_name(room) != "rm_jogo" return;
+
 drawing(fnt_pixel, c_white, fa_middle, fa_center, x, y + 55, tipo)
