@@ -5,7 +5,7 @@ function Dialogue() constructor {
 		array_push(_dialogs, {
 			sprite: _sprite,
 			message: _message,
-			audio: _audio,
+			audio: _audio
 		});
 	}
 	

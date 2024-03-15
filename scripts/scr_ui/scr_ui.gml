@@ -1,8 +1,6 @@
-globalvar in_pause, music_vol, sfx_vol, k_accept, k_confirm, k_cancel, k_left, k_right, k_up, k_down, _audio;
+globalvar in_pause, k_accept, k_confirm, k_cancel, k_left, k_right, k_up, k_down, _audio, music_volume;
 
 in_pause = false;
-music_vol = 1;
-sfx_vol = 1; 
 k_accept = mb_left;
 k_confirm = mb_right;
 k_cancel = vk_escape;
@@ -10,6 +8,7 @@ k_left = vk_left;
 k_right = vk_right;
 k_up = vk_up;
 k_down = vk_down;
+music_volume = 1;
 
 function fn_menu_sequence(_seq){
 	var _tar_layer = "UI"
@@ -46,7 +45,7 @@ function fn_resume_buttom(){
 }
 
 function fn_volume_buttom(){
-    
+    music_volume = !music_volume;
 }
 
 function fn_pause_buttom(){

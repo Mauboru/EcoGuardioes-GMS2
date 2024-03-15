@@ -4,6 +4,10 @@ if in_pause exit;
 
 var _room_name = room_get_name(room);
 
+audio_sound_gain(snd_manguezal, music_volume, 0);
+audio_sound_gain(snd_menu, music_volume, 0);
+audio_sound_gain(snd_tema, music_volume, 0);
+
 switch (_room_name) {	
     case "rm_init":
         if (!audio_is_playing(snd_manguezal)) audio_play_sound(snd_manguezal, 1, 0);
