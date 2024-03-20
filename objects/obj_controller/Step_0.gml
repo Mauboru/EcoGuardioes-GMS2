@@ -26,6 +26,8 @@ switch (_room_name) {
 	case "rm_jogo":
 		if (!audio_is_playing(snd_tema)) audio_play_sound(snd_tema, 1, 1);
 		
+		//if mouse_check_button_pressed(k_accept) instance_create_layer(mouse_x, mouse_y, "Instances", obj_lixo);
+		
 		#region Tempo
 			//Controla o tempo da mare
 			if(timer > 0) timer -= timer_vel

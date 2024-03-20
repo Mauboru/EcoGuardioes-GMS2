@@ -22,11 +22,16 @@
   "physicsGroup": 1,
   "physicsKinematic": false,
   "physicsLinearDamping": 0.1,
-  "physicsObject": false,
+  "physicsObject": true,
   "physicsRestitution": 0.1,
   "physicsSensor": false,
   "physicsShape": 1,
-  "physicsShapePoints": [],
+  "physicsShapePoints": [
+    {"x":14.0,"y":8.0,},
+    {"x":52.0,"y":8.0,},
+    {"x":52.0,"y":52.0,},
+    {"x":14.0,"y":52.0,},
+  ],
   "physicsStartAwake": true,
   "properties": [
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"tipo","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"","varType":2,},

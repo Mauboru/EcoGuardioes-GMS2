@@ -42,7 +42,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_17FC5766","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_tempo","path":"objects/obj_tempo/obj_tempo.yy",},"properties":[],"rotation":0.0,"scaleX":0.2,"scaleY":0.21311475,"x":400.0,"y":79.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Limites","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_634CB8DD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_limite","path":"objects/obj_limite/obj_limite.yy",},"properties":[],"rotation":0.0,"scaleX":16.0,"scaleY":0.65625,"x":256.0,"y":640.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_634CB8DD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_limite","path":"objects/obj_limite/obj_limite.yy",},"properties":[],"rotation":0.0,"scaleX":16.0,"scaleY":0.65625,"x":256.0,"y":653.5,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_33162EE5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_limite","path":"objects/obj_limite/obj_limite.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":20.75,"x":527.0,"y":332.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5FCD01AB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_limite","path":"objects/obj_limite/obj_limite.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":20.75,"x":-17.0,"y":332.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
@@ -55,9 +55,9 @@
   "parentRoom": null,
   "physicsSettings": {
     "inheritPhysicsSettings": false,
-    "PhysicsWorld": false,
+    "PhysicsWorld": true,
     "PhysicsWorldGravityX": 0.0,
-    "PhysicsWorldGravityY": 10.0,
+    "PhysicsWorldGravityY": 65.0,
     "PhysicsWorldPixToMetres": 0.1,
   },
   "roomSettings": {
