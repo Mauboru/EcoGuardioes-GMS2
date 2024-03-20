@@ -1,3 +1,3 @@
 # Eco-Guardiões
 
-![Logo do Meu Projeto](sprites/spr_fundo/d8dd2567-7463-428b-acdf-de718fdcc526.png)
+![Logo do Meu Projeto](sprites/spr_bk_menu/2736b519-1ca0-41db-a49c-9291d469c23a.png)
