@@ -155,9 +155,9 @@
   ],
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_jogo","path":"rooms/rm_jogo/rm_jogo.yy",},},
+    {"roomId":{"name":"rm_cutscene","path":"rooms/rm_cutscene/rm_cutscene.yy",},},
     {"roomId":{"name":"rm_init","path":"rooms/rm_init/rm_init.yy",},},
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
-    {"roomId":{"name":"rm_cutscene","path":"rooms/rm_cutscene/rm_cutscene.yy",},},
     {"roomId":{"name":"rm_fim_de_jogo","path":"rooms/rm_fim_de_jogo/rm_fim_de_jogo.yy",},},
   ],
   "templateType": null,
