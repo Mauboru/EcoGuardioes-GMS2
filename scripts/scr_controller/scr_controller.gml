@@ -33,3 +33,7 @@ function transition(_room){
 		_tran.destino = _room;
 	}
 }
+	
+function print(text){
+	show_debug_message(string(text));
+}

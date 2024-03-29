@@ -7,7 +7,6 @@ papel = 0;
 vidro = 1;
 plastico = 2;
 metal = 3;
-
 tipo = choose(0,2);
 
 switch (tipo) {
@@ -32,3 +31,17 @@ switch (tipo) {
 		image_index = sprite;
         break;
 }
+	
+#region Fisica
+
+phy_residuos = physics_fixture_create();
+physics_fixture_set_box_shape(phy_residuos, sprite_width/2, sprite_height/2);
+physics_fixture_set_density(phy_residuos, 0.5);
+physics_fixture_set_restitution(phy_residuos, 0.1);
+physics_fixture_set_collision_group(phy_residuos, 1);
+physics_fixture_set_linear_damping(phy_residuos, 0.1);
+physics_fixture_set_angular_damping(phy_residuos, 0.1);
+physics_fixture_set_friction(phy_residuos, 0.2);
+physics_fixture_bind(phy_residuos, self);
+
+#endregion

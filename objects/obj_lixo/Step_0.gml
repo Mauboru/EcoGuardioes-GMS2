@@ -1,7 +1,9 @@
-if (clicado) {
-    if (room_get_name(room) == "rm_jogo") {
-        physics_apply_force(mouse_x, mouse_y, 1000, 1000);
-    }
+if  room_get_name(room) == "rm_jogo" {
+	if (clicado) {
+		physics_fixture_delete(phy_residuos);
+		x = mouse_x;
+		y = mouse_y;
+	}else{
+		//How to activate here?
+	}
 }
-
- physics_apply_force(mouse_x, mouse_y, 0, 0);
