@@ -39,7 +39,7 @@ switch (_room_name) {
 
 		#region Pessoas
 
-		var _quantidade_desejada = 6;
+		var _quantidade_desejada = 4;
 		var _quantidade_existente = instance_number(obj_pessoas);
 		var _instancias_a_adicionar = _quantidade_desejada - _quantidade_existente;
 		_instancias_a_adicionar = min(_instancias_a_adicionar, 2);
