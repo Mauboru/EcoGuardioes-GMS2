@@ -106,7 +106,7 @@
     {"id":{"name":"rm_fim_de_jogo","path":"rooms/rm_fim_de_jogo/rm_fim_de_jogo.yy",},},
     {"id":{"name":"spr_credits","path":"sprites/spr_credits/spr_credits.yy",},},
     {"id":{"name":"objGetProfile","path":"objects/objGetProfile/objGetProfile.yy",},},
-    {"id":{"name":"obj_lixo","path":"objects/obj_lixo/obj_lixo.yy",},},
+    {"id":{"name":"obj_residue","path":"objects/obj_residue/obj_residue.yy",},},
     {"id":{"name":"http_utils","path":"scripts/http_utils/http_utils.yy",},},
     {"id":{"name":"obj_dialogue_cutscene1","path":"objects/obj_dialogue_cutscene1/obj_dialogue_cutscene1.yy",},},
     {"id":{"name":"objHttpManager","path":"objects/objHttpManager/objHttpManager.yy",},},
@@ -154,8 +154,8 @@
     {"id":{"name":"rm_jogo","path":"rooms/rm_jogo/rm_jogo.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"rm_init","path":"rooms/rm_init/rm_init.yy",},},
     {"roomId":{"name":"rm_jogo","path":"rooms/rm_jogo/rm_jogo.yy",},},
+    {"roomId":{"name":"rm_init","path":"rooms/rm_init/rm_init.yy",},},
     {"roomId":{"name":"rm_cutscene","path":"rooms/rm_cutscene/rm_cutscene.yy",},},
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"roomId":{"name":"rm_fim_de_jogo","path":"rooms/rm_fim_de_jogo/rm_fim_de_jogo.yy",},},

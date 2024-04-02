@@ -71,7 +71,7 @@
     {"name":"gxc_api_config","order":3,"path":"scripts/gxc_api_config/gxc_api_config.yy",},
     {"name":"rm_fim_de_jogo","order":4,"path":"rooms/rm_fim_de_jogo/rm_fim_de_jogo.yy",},
     {"name":"objGetProfile","order":4,"path":"objects/objGetProfile/objGetProfile.yy",},
-    {"name":"obj_lixo","order":6,"path":"objects/obj_lixo/obj_lixo.yy",},
+    {"name":"obj_residue","order":6,"path":"objects/obj_residue/obj_residue.yy",},
     {"name":"objHttpManager","order":1,"path":"objects/objHttpManager/objHttpManager.yy",},
     {"name":"fnt_caracteres","order":3,"path":"fonts/fnt_caracteres/fnt_caracteres.yy",},
     {"name":"spr_tempo","order":8,"path":"sprites/spr_tempo/spr_tempo.yy",},

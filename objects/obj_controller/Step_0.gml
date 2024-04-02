@@ -24,9 +24,7 @@ switch (_room_name) {
 	    if (!audio_is_playing(snd_menu)) audio_play_sound(snd_menu, 1, 1);
 		break;
 	case "rm_jogo":
-		if (!audio_is_playing(snd_tema)) audio_play_sound(snd_tema, 1, 1);
-		
-		//if mouse_check_button_pressed(k_accept) instance_create_layer(mouse_x, mouse_y, "Instances", obj_lixo);
+		//if (!audio_is_playing(snd_tema)) audio_play_sound(snd_tema, 1, 1);
 		
 		#region Tempo
 			//Controla o tempo da mare
@@ -39,7 +37,7 @@ switch (_room_name) {
 
 		#region Pessoas
 
-		var _quantidade_desejada = 4;
+		var _quantidade_desejada = 0;
 		var _quantidade_existente = instance_number(obj_pessoas);
 		var _instancias_a_adicionar = _quantidade_desejada - _quantidade_existente;
 		_instancias_a_adicionar = min(_instancias_a_adicionar, 2);

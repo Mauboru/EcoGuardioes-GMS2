@@ -11,7 +11,7 @@ if room_get_name(room) != "rm_jogo" instance_destroy()
 
 //Caso foi pausado ele retorna a jogar lixo
 var _quantidade_desejada = 20;
-var _quantidade_existente = instance_number(obj_lixo);
+var _quantidade_existente = instance_number(obj_residue);
 var _instancias_a_adicionar = _quantidade_desejada - _quantidade_existente;
 _instancias_a_adicionar = min(_instancias_a_adicionar, 2);
     

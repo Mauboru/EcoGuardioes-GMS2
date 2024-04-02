@@ -11,8 +11,8 @@ if (_inst_lixeira != noone && _inst_lixeira.destacado && tipo == _inst_lixeira.t
     instance_destroy();
 } else {
     if (x < 0 || x > room_width || y > obj_limite.y) {
-        x = x_anterior;
-        y = y_anterior;
+		phy_position_x = x_anterior;
+        phy_position_y = y_anterior;
     }
 }
 
