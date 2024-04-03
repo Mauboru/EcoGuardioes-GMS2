@@ -85,6 +85,7 @@
     {"name":"objChallengeUserScores","order":3,"path":"objects/objChallengeUserScores/objChallengeUserScores.yy",},
     {"name":"seq_bonus_in","order":2,"path":"sequences/seq_bonus_in/seq_bonus_in.yy",},
     {"name":"snd_fx_open","order":1,"path":"sounds/snd_fx_open/snd_fx_open.yy",},
+    {"name":"spr_teste","order":9,"path":"sprites/spr_teste/spr_teste.yy",},
     {"name":"objChallengeGlobalScores","order":1,"path":"objects/objChallengeGlobalScores/objChallengeGlobalScores.yy",},
     {"name":"objYoYoText","order":1,"path":"objects/objYoYoText/objYoYoText.yy",},
     {"name":"snd_dialog_part3","order":2,"path":"sounds/snd_dialog_part3/snd_dialog_part3.yy",},

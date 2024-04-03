@@ -129,6 +129,7 @@
     {"id":{"name":"seq_bonus_in","path":"sequences/seq_bonus_in/seq_bonus_in.yy",},},
     {"id":{"name":"snd_fx_open","path":"sounds/snd_fx_open/snd_fx_open.yy",},},
     {"id":{"name":"snd_tema","path":"sounds/snd_tema/snd_tema.yy",},},
+    {"id":{"name":"spr_teste","path":"sprites/spr_teste/spr_teste.yy",},},
     {"id":{"name":"objChallengeGlobalScores","path":"objects/objChallengeGlobalScores/objChallengeGlobalScores.yy",},},
     {"id":{"name":"objYoYoText","path":"objects/objYoYoText/objYoYoText.yy",},},
     {"id":{"name":"spr_guara","path":"sprites/spr_guara/spr_guara.yy",},},
