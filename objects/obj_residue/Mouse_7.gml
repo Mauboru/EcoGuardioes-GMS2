@@ -8,7 +8,7 @@ if (_inst_lixeira != noone && _inst_lixeira.destacado && tipo == _inst_lixeira.t
     _pontos.score_value = "+10";
     _pontos.duration = 60 * 2;
 	pontos += 10;
-    instance_destroy();
+    instance_destroy()
 } else {
     if (x < 0 || x > room_width || y > obj_limite.y) {
 		phy_position_x = x_anterior;
