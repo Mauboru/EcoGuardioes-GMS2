@@ -54,7 +54,7 @@
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"discord_rich_presence.dll","CopyToMask":-1,"filePath":"datafiles",},
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"discord-rpc.dll","CopyToMask":-1,"filePath":"datafiles",},
-    {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"GXC_Library_Documentation.pdf","CopyToMask":0,"filePath":"datafiles",},
+    {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"GXC_Library_Documentation.pdf","CopyToMask":-1,"filePath":"datafiles",},
   ],
   "isEcma": false,
   "LibraryEmitters": [],
@@ -91,7 +91,7 @@
     {"id":{"name":"objYoYoButton","path":"objects/objYoYoButton/objYoYoButton.yy",},},
     {"id":{"name":"obj_tempo","path":"objects/obj_tempo/obj_tempo.yy",},},
     {"id":{"name":"spr_bk_jogo","path":"sprites/spr_bk_jogo/spr_bk_jogo.yy",},},
-    {"id":{"name":"obj_pessoas","path":"objects/obj_pessoas/obj_pessoas.yy",},},
+    {"id":{"name":"obj_persons","path":"objects/obj_persons/obj_persons.yy",},},
     {"id":{"name":"spr_title_menu","path":"sprites/spr_title_menu/spr_title_menu.yy",},},
     {"id":{"name":"objQueryParam","path":"objects/objQueryParam/objQueryParam.yy",},},
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},},

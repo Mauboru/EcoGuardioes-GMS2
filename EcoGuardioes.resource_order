@@ -58,7 +58,7 @@
     {"name":"obj_pause","order":4,"path":"objects/obj_pause/obj_pause.yy",},
     {"name":"obj_tempo","order":7,"path":"objects/obj_tempo/obj_tempo.yy",},
     {"name":"spr_bk_jogo","order":5,"path":"sprites/spr_bk_jogo/spr_bk_jogo.yy",},
-    {"name":"obj_pessoas","order":5,"path":"objects/obj_pessoas/obj_pessoas.yy",},
+    {"name":"obj_persons","order":5,"path":"objects/obj_persons/obj_persons.yy",},
     {"name":"spr_title_menu","order":3,"path":"sprites/spr_title_menu/spr_title_menu.yy",},
     {"name":"objQueryParam","order":5,"path":"objects/objQueryParam/objQueryParam.yy",},
     {"name":"obj_controller","order":8,"path":"objects/obj_controller/obj_controller.yy",},
