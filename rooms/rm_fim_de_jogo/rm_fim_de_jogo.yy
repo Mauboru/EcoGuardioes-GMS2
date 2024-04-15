@@ -12,6 +12,7 @@
     {"name":"inst_5FCD01AB_1","path":"rooms/rm_fim_de_jogo/rm_fim_de_jogo.yy",},
     {"name":"inst_778C8E67","path":"rooms/rm_fim_de_jogo/rm_fim_de_jogo.yy",},
     {"name":"inst_296E2276","path":"rooms/rm_fim_de_jogo/rm_fim_de_jogo.yy",},
+    {"name":"inst_399A7126","path":"rooms/rm_fim_de_jogo/rm_fim_de_jogo.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -54,7 +55,9 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_33162EE5_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_limite","path":"objects/obj_limite/obj_limite.yy",},"properties":[],"rotation":0.14127421,"scaleX":1.0,"scaleY":24.75,"x":526.9606,"y":396.00006,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5FCD01AB_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_limite","path":"objects/obj_limite/obj_limite.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":24.75,"x":-17.0,"y":396.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
-    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
+    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_399A7126","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_agua","path":"objects/obj_agua/obj_agua.yy",},"properties":[],"rotation":0.0,"scaleX":16.0,"scaleY":10.251724,"x":256.0,"y":635.886,},
+      ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":2.0,"animationSpeedType":0,"colour":4294967295,"depth":600,"effectEnabled":true,"effectType":"none","gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"spr_bk_jogo","path":"sprites/spr_bk_jogo/spr_bk_jogo.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "parent": {
