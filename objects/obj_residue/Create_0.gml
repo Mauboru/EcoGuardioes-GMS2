@@ -8,7 +8,6 @@ vidro = 1;
 plastico = 2;
 metal = 3;
 tipo = choose(0,2);
-phy_residuos = physics_fixture_create();
 
 switch (tipo) {
     case papel:

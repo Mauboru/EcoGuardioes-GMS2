@@ -37,7 +37,7 @@ switch (_room_name) {
 
 		#region Pessoas
 
-		var _quantidade_desejada = 0;
+		var _quantidade_desejada = 5;
 		var _quantidade_existente = instance_number(obj_persons);
 		var _instancias_a_adicionar = _quantidade_desejada - _quantidade_existente;
 		_instancias_a_adicionar = min(_instancias_a_adicionar, 2);
@@ -59,11 +59,15 @@ switch (_room_name) {
 	    var _layer_id = layer_get_id("bk_water");
 	    var _new_y = layer_get_y(_layer_id);
 		
-		if  _new_y <= 500  _new_y = 500;
-		else {
+		if  (_new_y <= 500) {
+			_new_y = 500;
+		} else {
 			 _new_y -= random_range(.8, 1.5)
 			layer_y(_layer_id,  _new_y);
 		}
+		
+		if (obj_limite.y > 552) obj_limite.phy_position_y -= .4;
+		if (obj_limite.y < 552) obj_limite.phy_position_y += 50;
 
 	    if (!audio_is_playing(snd_menu)) audio_play_sound(snd_menu, 1, 1);
 	    break;
