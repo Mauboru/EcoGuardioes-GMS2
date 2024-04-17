@@ -9,6 +9,9 @@ audio_sound_gain(snd_menu, music_volume, 0);
 audio_sound_gain(snd_tema, music_volume, 0);
 
 switch (_room_name) {	
+	case "rm_map":
+		if (!audio_is_playing(snd_map)) audio_play_sound(snd_map, 1, 0);
+		break;
     case "rm_init":
         if (!audio_is_playing(snd_manguezal)) audio_play_sound(snd_manguezal, 1, 0);
         break;

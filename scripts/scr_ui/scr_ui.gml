@@ -36,7 +36,7 @@ function fn_cutscene_sequence(_seq){
 
 function fn_jogar_buttom(){
 	in_pause = false;
-	transition(rm_cutscene)
+	transition(rm_map)
 }
 
 function fn_resume_buttom(){
