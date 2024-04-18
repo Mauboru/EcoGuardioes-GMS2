@@ -23,7 +23,7 @@
         {"name":"g_RecursiveBlurRadius","type":0,"value":"20",},
         {"name":"g_RecursiveBlurQuality","type":0,"value":"5",},
         {"name":"g_RecursiveBlurGamma","type":0,"value":"0",},
-      ],"spriteId":{"name":"spr_bk_jogo","path":"sprites/spr_bk_jogo/spr_bk_jogo.yy",},"stretch":true,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
+      ],"spriteId":{"name":"sBkMangrove","path":"sprites/sBkMangrove/sBkMangrove.yy",},"stretch":true,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "parent": {
     "name": "Rooms",

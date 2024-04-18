@@ -31,10 +31,7 @@
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"index","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0","varType":1,},
   ],
   "solid": false,
-  "spriteId": {
-    "name": "spr_ui_pontos",
-    "path": "sprites/spr_ui_pontos/spr_ui_pontos.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

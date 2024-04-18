@@ -30,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_credits",
-    "path": "sprites/spr_credits/spr_credits.yy",
+    "name": "sCredits",
+    "path": "sprites/sCredits/sCredits.yy",
   },
   "spriteMaskId": null,
   "visible": true,

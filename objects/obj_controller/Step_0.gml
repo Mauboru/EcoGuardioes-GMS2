@@ -41,7 +41,7 @@ switch (_room_name) {
 		#region Pessoas
 
 		var _quantidade_desejada = 5;
-		var _quantidade_existente = instance_number(obj_persons);
+		var _quantidade_existente = instance_number(oPersons);
 		var _instancias_a_adicionar = _quantidade_desejada - _quantidade_existente;
 		_instancias_a_adicionar = min(_instancias_a_adicionar, 2);
     
@@ -53,7 +53,7 @@ switch (_room_name) {
 		}
 
 		//Deletando inimigos caso ainda existam msm após parare de ser criados
-		if (timer <= 5 and _quantidade_existente != 0) instance_destroy(obj_persons);
+		if (timer <= 5 and _quantidade_existente != 0) instance_destroy(oPersons);
 
 		#endregion
 		
