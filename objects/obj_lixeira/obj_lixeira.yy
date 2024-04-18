@@ -32,8 +32,8 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "spr_lixeiras",
-    "path": "sprites/spr_lixeiras/spr_lixeiras.yy",
+    "name": "sTrash",
+    "path": "sprites/sTrash/sTrash.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -30,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spLighthouse",
-    "path": "sprites/spLighthouse/spLighthouse.yy",
+    "name": "sLighthouse",
+    "path": "sprites/sLighthouse/sLighthouse.yy",
   },
   "spriteMaskId": null,
   "visible": true,

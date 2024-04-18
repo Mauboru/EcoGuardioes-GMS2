@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_limite",
-    "path": "sprites/spr_limite/spr_limite.yy",
+    "name": "sLimit",
+    "path": "sprites/sLimit/sLimit.yy",
   },
   "spriteMaskId": null,
   "visible": false,

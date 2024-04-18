@@ -38,8 +38,8 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "spr_lixos",
-    "path": "sprites/spr_lixos/spr_lixos.yy",
+    "name": "sResidues",
+    "path": "sprites/sResidues/sResidues.yy",
   },
   "spriteMaskId": null,
   "visible": true,

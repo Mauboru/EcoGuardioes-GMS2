@@ -28,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_tempo",
-    "path": "sprites/spr_tempo/spr_tempo.yy",
+    "name": "sTime",
+    "path": "sprites/sTime/sTime.yy",
   },
   "spriteMaskId": null,
   "visible": true,

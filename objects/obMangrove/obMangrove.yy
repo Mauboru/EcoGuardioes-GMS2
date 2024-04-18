@@ -30,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spMangrove",
-    "path": "sprites/spMangrove/spMangrove.yy",
+    "name": "sMangrove",
+    "path": "sprites/sMangrove/sMangrove.yy",
   },
   "spriteMaskId": null,
   "visible": true,
