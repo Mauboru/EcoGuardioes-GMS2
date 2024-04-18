@@ -1,6 +1,6 @@
 globalvar timer, timer_vel, fase, pontos, aparecer, pode_criar;
 
-timer = 35;
+timer = 3;
 timer_vel = .02;
 fase = 1;
 pontos = 0;

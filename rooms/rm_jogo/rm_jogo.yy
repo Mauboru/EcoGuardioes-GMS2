@@ -12,10 +12,10 @@
     {"name":"inst_5FCD01AB","path":"rooms/rm_jogo/rm_jogo.yy",},
     {"name":"inst_1E883E7F","path":"rooms/rm_jogo/rm_jogo.yy",},
     {"name":"inst_57428DC6","path":"rooms/rm_jogo/rm_jogo.yy",},
-    {"name":"inst_6078A45A","path":"rooms/rm_jogo/rm_jogo.yy",},
     {"name":"inst_1774D030","path":"rooms/rm_jogo/rm_jogo.yy",},
     {"name":"inst_6A048CA1","path":"rooms/rm_jogo/rm_jogo.yy",},
     {"name":"inst_17FC5766","path":"rooms/rm_jogo/rm_jogo.yy",},
+    {"name":"inst_511AFD70","path":"rooms/rm_jogo/rm_jogo.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -32,7 +32,6 @@
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_texto","path":"objects/obj_texto/obj_texto.yy",},"propertyId":{"name":"tipo","path":"objects/obj_texto/obj_texto.yy",},"value":"pontos",},
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_texto","path":"objects/obj_texto/obj_texto.yy",},"propertyId":{"name":"index","path":"objects/obj_texto/obj_texto.yy",},"value":"1",},
           ],"rotation":0.0,"scaleX":0.36,"scaleY":0.56164384,"x":432.0,"y":32.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6078A45A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_pause","path":"objects/obj_pause/obj_pause.yy",},"properties":[],"rotation":0.0,"scaleX":0.7708333,"scaleY":0.75,"x":43.5,"y":39.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1774D030","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_lixeira","path":"objects/obj_lixeira/obj_lixeira.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_lixeira","path":"objects/obj_lixeira/obj_lixeira.yy",},"propertyId":{"name":"tipo","path":"objects/obj_lixeira/obj_lixeira.yy",},"value":"papel",},
           ],"rotation":0.0,"scaleX":0.31707317,"scaleY":0.30935252,"x":159.0,"y":727.0,},
@@ -40,6 +39,7 @@
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_lixeira","path":"objects/obj_lixeira/obj_lixeira.yy",},"propertyId":{"name":"tipo","path":"objects/obj_lixeira/obj_lixeira.yy",},"value":"plastico",},
           ],"rotation":0.0,"scaleX":0.31707317,"scaleY":0.30935252,"x":335.99945,"y":727.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_17FC5766","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_tempo","path":"objects/obj_tempo/obj_tempo.yy",},"properties":[],"rotation":0.0,"scaleX":0.2,"scaleY":0.21311475,"x":400.0,"y":79.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_511AFD70","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_pause","path":"objects/obj_pause/obj_pause.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":32.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Limites","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_634CB8DD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_limite","path":"objects/obj_limite/obj_limite.yy",},"properties":[],"rotation":0.0,"scaleX":16.0,"scaleY":0.65625,"x":256.0,"y":653.5,},

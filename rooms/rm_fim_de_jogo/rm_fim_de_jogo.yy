@@ -8,11 +8,10 @@
   "inheritLayers": false,
   "instanceCreationOrder": [
     {"name":"inst_634CB8DD_1","path":"rooms/rm_fim_de_jogo/rm_fim_de_jogo.yy",},
-    {"name":"inst_778C8E67","path":"rooms/rm_fim_de_jogo/rm_fim_de_jogo.yy",},
-    {"name":"inst_296E2276","path":"rooms/rm_fim_de_jogo/rm_fim_de_jogo.yy",},
     {"name":"inst_399A7126","path":"rooms/rm_fim_de_jogo/rm_fim_de_jogo.yy",},
     {"name":"inst_649C44D1","path":"rooms/rm_fim_de_jogo/rm_fim_de_jogo.yy",},
     {"name":"inst_4C26B19D","path":"rooms/rm_fim_de_jogo/rm_fim_de_jogo.yy",},
+    {"name":"inst_8A9FB4C","path":"rooms/rm_fim_de_jogo/rm_fim_de_jogo.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -31,8 +30,7 @@
         {"name":"g_DistortTexture","type":2,"value":"_filter_heathaze_noise_sprite",},
       ],"spriteId":{"name":"sTitlePoints","path":"sprites/sTitlePoints/sTitlePoints.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":100,"y":100,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"UI","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_778C8E67","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_resume","path":"objects/obj_resume/obj_resume.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-77.0,"y":55.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_296E2276","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_exit","path":"objects/obj_exit/obj_exit.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-64.0,"y":128.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_8A9FB4C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_exit","path":"objects/obj_exit/obj_exit.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-32.0,"y":96.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"bk_water","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":300,"effectEnabled":true,"effectType":"_filter_underwater","gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[
         {"name":"g_Distort1Speed","type":0,"value":"0.054",},
