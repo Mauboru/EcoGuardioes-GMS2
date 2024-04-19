@@ -1,7 +1,7 @@
 event_inherited();
 
 var _click = mouse_check_button_pressed(k_accept)
-var _colision = instance_position(mouse_x, mouse_y, obj_pause);
+var _colision = instance_position(mouse_x, mouse_y, oPause);
 
 if _click and _colision  in_pause = !in_pause
 

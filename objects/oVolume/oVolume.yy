@@ -1,22 +1,22 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_volume",
+  "name": "oVolume",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_buttom","path":"objects/obj_buttom/obj_buttom.yy",},"propertyId":{"name":"texto","path":"objects/obj_buttom/obj_buttom.yy",},"value":"  Z  ",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_buttom","path":"objects/obj_buttom/obj_buttom.yy",},"propertyId":{"name":"on_click","path":"objects/obj_buttom/obj_buttom.yy",},"value":"fn_volume_buttom",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oButtom","path":"objects/oButtom/oButtom.yy",},"propertyId":{"name":"texto","path":"objects/oButtom/oButtom.yy",},"value":"  Z  ",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oButtom","path":"objects/oButtom/oButtom.yy",},"propertyId":{"name":"on_click","path":"objects/oButtom/oButtom.yy",},"value":"fn_volume_buttom",},
   ],
   "parent": {
     "name": "Buttons",
     "path": "folders/Objects/UI/Buttons.yy",
   },
   "parentObjectId": {
-    "name": "obj_buttom",
-    "path": "objects/obj_buttom/obj_buttom.yy",
+    "name": "oButtom",
+    "path": "objects/oButtom/oButtom.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

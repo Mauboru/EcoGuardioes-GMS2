@@ -12,26 +12,26 @@ music_volume = 1;
 
 function fn_menu_sequence(_seq){
 	var _tar_layer = "UI"
-	var _play_bt = instance_find(obj_play,0);
-	var _volume_bt = instance_find(obj_volume,0);
-	var _exit_bt = instance_find(obj_exit,0);
+	var _play_bt = instance_find(oPlay,0);
+	var _volume_bt = instance_find(oVolume,0);
+	var _exit_bt = instance_find(oExit,0);
 	var _sequencia = layer_sequence_create(_tar_layer, room_width * 0.5, room_height * 0.5, _seq);
 	var _seq_instancia = layer_sequence_get_instance(_sequencia);
 	
-	sequence_instance_override_object(_seq_instancia, obj_exit, _exit_bt); 
-	sequence_instance_override_object(_seq_instancia, obj_play, _play_bt); 
-	sequence_instance_override_object(_seq_instancia, obj_volume, _volume_bt); 
+	sequence_instance_override_object(_seq_instancia, oExit, _exit_bt); 
+	sequence_instance_override_object(_seq_instancia, oPlay, _play_bt); 
+	sequence_instance_override_object(_seq_instancia, oVolume, _volume_bt); 
 }
 
 function fn_cutscene_sequence(_seq){
 	var _tar_layer = "UI"
 	var _lixeira = instance_find(obj_lixeira,0);
-	var  _lixo = instance_find(obj_residue,0);
+	var  _lixo = instance_find(oResidues,0);
 	var _sequencia = layer_sequence_create(_tar_layer, room_width * 0.5, room_height * 0.5, _seq);
 	var _seq_instancia = layer_sequence_get_instance(_sequencia);
 	
 	sequence_instance_override_object(_seq_instancia, obj_lixeira, _lixeira); 
-	sequence_instance_override_object(_seq_instancia, obj_residue,  _lixo); 
+	sequence_instance_override_object(_seq_instancia, oResidues,  _lixo); 
 }
 
 function fn_jogar_buttom(){

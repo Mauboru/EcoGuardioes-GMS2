@@ -1,6 +1,6 @@
 var _sprite_width = string_width(texto) + 8;
 var _sprite_height = string_height(texto) + 4;
-var _inst_buttom_hover = instance_position(mouse_x, mouse_y, obj_buttom);
+var _inst_buttom_hover = instance_position(mouse_x, mouse_y, oButtom);
 var _is_selected = _inst_buttom_hover == id;
 
 image_xscale = _sprite_width / 20; 

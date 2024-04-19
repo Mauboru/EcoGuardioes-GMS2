@@ -1,6 +1,6 @@
 if in_pause exit;
 
-var _obj_lixo = instance_create_layer(x, y, "Instances", obj_residue);
+var _obj_lixo = instance_create_layer(x, y, "Instances", oResidues);
 var _speed = irandom_range(5, 10);
 var _angle = irandom_range(45, 135);
 var _hspeed_initial = _speed * cos(_angle);

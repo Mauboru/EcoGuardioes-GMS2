@@ -12,9 +12,11 @@ switch (_room_name) {
 	case "rm_map":
 		if (!audio_is_playing(snd_map)) audio_play_sound(snd_map, 1, 0);
 		break;
+		
     case "rm_init":
         if (!audio_is_playing(snd_manguezal)) audio_play_sound(snd_manguezal, 1, 0);
         break;
+		
 	case "rm_cutscene":
 		//if (!audio_is_playing(snd_cutscene)) audio_play_sound(snd_menu, 1, 1);
 		if aparecer {
@@ -23,9 +25,11 @@ switch (_room_name) {
 			pode_criar = false;
 		}
 		break;
+		
 	case "rm_menu":
 	    if (!audio_is_playing(snd_menu)) audio_play_sound(snd_menu, 1, 1);
 		break;
+		
 	case "rm_jogo":
 		//if (!audio_is_playing(snd_tema)) audio_play_sound(snd_tema, 1, 1);
 		

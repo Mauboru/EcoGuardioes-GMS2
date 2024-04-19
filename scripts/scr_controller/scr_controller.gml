@@ -1,6 +1,6 @@
 globalvar timer, timer_vel, fase, pontos, aparecer, pode_criar;
 
-timer = 3;
+timer = 35;
 timer_vel = .02;
 fase = 1;
 pontos = 0;
@@ -11,7 +11,7 @@ function reiniciar(){
 	fase += .2;
 	timer = 35 * fase;
 	
-	instance_destroy(obj_residue);
+	instance_destroy(oResidues);
 }
 
 function drawing(_font,  _color, _valign, _halign, _x, _y, _text){
