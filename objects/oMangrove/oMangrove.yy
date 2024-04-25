@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obFarol",
+  "name": "oMangrove",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":10,"eventType":6,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":11,"eventType":6,"isDnD":false,},
@@ -30,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sLighthouse",
-    "path": "sprites/sLighthouse/sLighthouse.yy",
+    "name": "sMangrove",
+    "path": "sprites/sMangrove/sMangrove.yy",
   },
   "spriteMaskId": null,
   "visible": true,
