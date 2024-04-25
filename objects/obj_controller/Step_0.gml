@@ -19,10 +19,9 @@ switch (_room_name) {
 		
 	case "rm_cutscene":
 		//if (!audio_is_playing(snd_cutscene)) audio_play_sound(snd_menu, 1, 1);
-		if aparecer {
+		if aparecer == true {
 			fn_cutscene_sequence(seq_cutscene);
-			aparecer = false;
-			pode_criar = false;
+			aparecer = noone;
 		}
 		break;
 		

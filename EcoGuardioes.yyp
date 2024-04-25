@@ -103,6 +103,7 @@
     {"id":{"name":"sButtom","path":"sprites/sButtom/sButtom.yy",},},
     {"id":{"name":"sResidues","path":"sprites/sResidues/sResidues.yy",},},
     {"id":{"name":"spr_water","path":"sprites/spr_water/spr_water.yy",},},
+    {"id":{"name":"oResidueCutscene","path":"objects/oResidueCutscene/oResidueCutscene.yy",},},
     {"id":{"name":"gxc_api_config","path":"scripts/gxc_api_config/gxc_api_config.yy",},},
     {"id":{"name":"rm_fim_de_jogo","path":"rooms/rm_fim_de_jogo/rm_fim_de_jogo.yy",},},
     {"id":{"name":"sCredits","path":"sprites/sCredits/sCredits.yy",},},
