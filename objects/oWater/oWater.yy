@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_agua",
+  "name": "oWater",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],

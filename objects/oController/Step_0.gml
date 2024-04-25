@@ -72,8 +72,8 @@ switch (_room_name) {
 			layer_y(_layer_id,  _new_y);
 		}
 		
-		if (obj_limite.y > 552) obj_limite.phy_position_y -= .4;
-		if (obj_limite.y < 552) obj_limite.phy_position_y += 50;
+		if (oLimit.y > 552) oLimit.phy_position_y -= .4;
+		if (oLimit.y < 552) oLimit.phy_position_y += 50;
 
 	    if (!audio_is_playing(snd_menu)) audio_play_sound(snd_menu, 1, 1);
 	    break;

@@ -1,4 +1,4 @@
-var waterColision = instance_place(x, y, obj_agua)
+var waterColision = instance_place(x, y, oWater)
 
 if  room_get_name(room) == "rm_jogo" {
 	if (clicado) {

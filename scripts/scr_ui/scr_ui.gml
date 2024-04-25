@@ -25,12 +25,12 @@ function fn_menu_sequence(_seq){
 
 function fn_cutscene_sequence(_seq){
 	var _tar_layer = "UI"
-	var _lixeira = instance_find(obj_lixeira,0);
+	var _lixeira = instance_find(oTrash,0);
 	var  _lixo = instance_find(oResidues,0);
 	var _sequencia = layer_sequence_create(_tar_layer, room_width * 0.5, room_height * 0.5, _seq);
 	var _seq_instancia = layer_sequence_get_instance(_sequencia);
 	
-	sequence_instance_override_object(_seq_instancia, obj_lixeira, _lixeira); 
+	sequence_instance_override_object(_seq_instancia, oTrash, _lixeira); 
 	sequence_instance_override_object(_seq_instancia, oResidues,  _lixo); 
 }
 
