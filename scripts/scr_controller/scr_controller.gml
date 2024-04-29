@@ -26,8 +26,8 @@ function drawing(_font,  _color, _valign, _halign, _x, _y, _text){
 }
 
 function transition(_room){
-	if (!instance_exists(obj_transition)){
-		var _tran = instance_create_layer(0, 0, "Transitions", obj_transition);
+	if (!instance_exists(oTransition)){
+		var _tran = instance_create_layer(0, 0, "Transitions", oTransition);
 		_tran.destino = _room;
 	}
 }

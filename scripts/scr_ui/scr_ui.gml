@@ -57,3 +57,7 @@ function fn_exit_buttom() {
 	while (audio_is_playing(_audio))
     game_end();
 }
+
+function fn_skip_buttom() {
+	transition(rm_jogo);
+}
