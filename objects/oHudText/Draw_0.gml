@@ -15,4 +15,9 @@ switch(tipo){
 		drawing(fnt_ui, c_white, fa_middle, fa_center, x, y, "Pontos: " + string(pontos));
 		break;
 	}
+	
+	case "onda":{
+		drawing(fnt_ui, c_yellow, fa_middle, fa_center, x, y, "Onda: " + string(fase));
+		break;
+	}
 }

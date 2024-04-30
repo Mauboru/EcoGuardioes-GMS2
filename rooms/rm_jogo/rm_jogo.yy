@@ -15,6 +15,7 @@
     {"name":"inst_511AFD70","path":"rooms/rm_jogo/rm_jogo.yy",},
     {"name":"inst_23FA59A2","path":"rooms/rm_jogo/rm_jogo.yy",},
     {"name":"inst_45D929F","path":"rooms/rm_jogo/rm_jogo.yy",},
+    {"name":"inst_4758615B","path":"rooms/rm_jogo/rm_jogo.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -40,6 +41,10 @@
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oHudText","path":"objects/oHudText/oHudText.yy",},"propertyId":{"name":"tipo","path":"objects/oHudText/oHudText.yy",},"value":"pontos",},
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oHudText","path":"objects/oHudText/oHudText.yy",},"propertyId":{"name":"index","path":"objects/oHudText/oHudText.yy",},"value":"1",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":416.0,"y":64.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4758615B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oHudText","path":"objects/oHudText/oHudText.yy",},"properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oHudText","path":"objects/oHudText/oHudText.yy",},"propertyId":{"name":"tipo","path":"objects/oHudText/oHudText.yy",},"value":"onda",},
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oHudText","path":"objects/oHudText/oHudText.yy",},"propertyId":{"name":"index","path":"objects/oHudText/oHudText.yy",},"value":"1",},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":416.0,"y":96.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Limites","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_634CB8DD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oLimit","path":"objects/oLimit/oLimit.yy",},"properties":[],"rotation":0.0,"scaleX":16.0,"scaleY":0.65625,"x":256.0,"y":653.5,},

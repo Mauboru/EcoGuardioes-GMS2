@@ -1,16 +1,16 @@
-globalvar timer, timer_vel, fase, pontos, aparecer;
+globalvar timer, timerMax, timer_vel, fase, pontos, aparecer;
 
-timer = 35;
+timerMax = 60;
+timer = timerMax;
 timer_vel = .02;
 fase = 1;
 pontos = 0;
 aparecer = false;
 
 function reiniciar(){	
-	fase += .2;
-	timer = 35 * fase;
-	
-	instance_destroy(oResidues);
+	fase += 1;
+	timer = timerMax;
+	if fase == 4 room_goto(rm_fim_de_jogo);
 }
 
 function drawing(_font,  _color, _valign, _halign, _x, _y, _text){

@@ -36,8 +36,7 @@ switch (_room_name) {
 			//Controla o tempo da mare
 			if(timer > 0) timer -= timer_vel
 			if(timer <= 0){
-				timer = 0
-				room_goto(rm_fim_de_jogo);
+				reiniciar();
 			}
 		#endregion
 
