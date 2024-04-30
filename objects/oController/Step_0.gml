@@ -30,7 +30,7 @@ switch (_room_name) {
 		break;
 		
 	case "rm_jogo":
-		//if (!audio_is_playing(snd_tema)) audio_play_sound(snd_tema, 1, 1);
+		if (!audio_is_playing(snd_tema)) audio_play_sound(snd_tema, 1, 1);
 		
 		#region Tempo
 			//Controla o tempo da mare
