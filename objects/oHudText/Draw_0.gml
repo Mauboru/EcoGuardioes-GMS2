@@ -20,4 +20,9 @@ switch(tipo){
 		drawing(fnt_ui, c_yellow, fa_middle, fa_center, x, y, "Onda: " + string(fase));
 		break;
 	}
+	
+	default: {
+		drawing(fnt_ui, c_yellow, fa_middle, fa_center, x, y, text);
+		break;
+	}
 }

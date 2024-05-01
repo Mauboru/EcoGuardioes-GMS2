@@ -33,11 +33,10 @@ switch (_room_name) {
 		if (!audio_is_playing(snd_tema)) audio_play_sound(snd_tema, 1, 1);
 		
 		#region Tempo
-			//Controla o tempo da mare
-			if(timer > 0) timer -= timer_vel
-			if(timer <= 0){
-				reiniciar();
-			}
+		
+			if timer > 0 and intervalWave == false timer -= timer_vel
+			if timer <= 0 interval();
+			
 		#endregion
 
 		#region Pessoas
@@ -48,7 +47,7 @@ switch (_room_name) {
 		_instancias_a_adicionar = min(_instancias_a_adicionar, 2);
     
 		// Cria as instâncias necessárias
-		if (_instancias_a_adicionar > 0 and not timer <= 5) {
+		if (_instancias_a_adicionar > 0 and not timer <= 5 and intervalWave == true) {
 			repeat(_instancias_a_adicionar) {
 				alarm[0] = irandom_range(0, 130);
 			}
