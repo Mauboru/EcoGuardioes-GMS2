@@ -5,8 +5,8 @@
   "managed":true,
   "name":"oResume",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"oButtom","path":"objects/oButtom/oButtom.yy",},"propertyId":{"name":"texto","path":"objects/oButtom/oButtom.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"  A  ",},
-    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"oButtom","path":"objects/oButtom/oButtom.yy",},"propertyId":{"name":"on_click","path":"objects/oButtom/oButtom.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"fn_resume_buttom",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oButtom","path":"objects/oButtom/oButtom.yy",},"propertyId":{"name":"texto","path":"objects/oButtom/oButtom.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"  A  ",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oButtom","path":"objects/oButtom/oButtom.yy",},"propertyId":{"name":"on_click","path":"objects/oButtom/oButtom.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"fn_resume_buttom",},
   ],
   "parent":{
     "name":"Buttons",
