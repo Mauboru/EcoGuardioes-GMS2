@@ -5,9 +5,9 @@
   "managed":true,
   "name":"oSkip",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oButtom","path":"objects/oButtom/oButtom.yy",},"propertyId":{"name":"texto","path":"objects/oButtom/oButtom.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Pular",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oButtom","path":"objects/oButtom/oButtom.yy",},"propertyId":{"name":"on_click","path":"objects/oButtom/oButtom.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"fn_skip_buttom",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oButtom","path":"objects/oButtom/oButtom.yy",},"propertyId":{"name":"font","path":"objects/oButtom/oButtom.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"fnt_ui",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oButtom","path":"objects/oButtom/oButtom.yy",},"propertyId":{"name":"texto","path":"objects/oButtom/oButtom.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Pular",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oButtom","path":"objects/oButtom/oButtom.yy",},"propertyId":{"name":"on_click","path":"objects/oButtom/oButtom.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"fn_skip_buttom",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oButtom","path":"objects/oButtom/oButtom.yy",},"propertyId":{"name":"font","path":"objects/oButtom/oButtom.yy",},"resource":{"name":"fnt_ui","path":"fonts/fnt_ui/fnt_ui.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"fnt_ui",},
   ],
   "parent":{
     "name":"Buttons",

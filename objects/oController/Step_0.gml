@@ -30,7 +30,7 @@ switch (_room_name) {
 		break;
 		
 	case "rm_jogo":
-		if (!audio_is_playing(snd_tema)) audio_play_sound(snd_tema, 1, 1);
+		//if (!audio_is_playing(snd_tema)) audio_play_sound(snd_tema, 1, 1);
 		
 		#region Tempo
 		
@@ -47,7 +47,7 @@ switch (_room_name) {
 		_instancias_a_adicionar = min(_instancias_a_adicionar, 2);
     
 		// Cria as instâncias necessárias
-		if (_instancias_a_adicionar > 0 and not timer <= 5 and intervalWave == true) {
+		if (_instancias_a_adicionar > 0 and not timer <= 5 and intervalWave == false) {
 			repeat(_instancias_a_adicionar) {
 				alarm[0] = irandom_range(0, 130);
 			}

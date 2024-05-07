@@ -34,13 +34,25 @@ function fn_cutscene_sequence(_seq){
 	sequence_instance_override_object(_seq_instancia, oResidues,  _lixo); 
 }
 
+function fn_wave_seq(_seq){
+	var _tar_layer = "UI"
+	var _lixeira = instance_find(oHudText,0);
+	var _sequencia = layer_sequence_create(_tar_layer, room_width * 0.5, room_height * 0.5, _seq);
+	var _seq_instancia = layer_sequence_get_instance(_sequencia);
+	
+	sequence_instance_override_object(_seq_instancia, oTrash, _lixeira); 
+}
+
+function fn_return_buttom(){
+	transition(rm_menu);
+}
+
 function fn_jogar_buttom(){
 	in_pause = false;
 	transition(rm_map)
 }
 
 function fn_resume_buttom(){
-	reiniciar();
 	transition(rm_jogo)
 }
 
@@ -52,9 +64,6 @@ function fn_pause_buttom(){
 }
 
 function fn_exit_buttom() {
-    var _audio = audio_play_sound(snd_fx_select, 1, false);
-	
-	while (audio_is_playing(_audio))
     game_end();
 }
 

@@ -1,6 +1,6 @@
 globalvar timer, timerMax, timer_vel, fase, pontos, aparecer, intervalWave;
 
-timerMax = 10;
+timerMax = 60;
 timer = timerMax;
 timer_vel = .02;
 fase = 1;
@@ -15,9 +15,10 @@ function interval(){
 	
 	if fase == 4 room_goto(rm_fim_de_jogo);
 	
-	var textWave = instance_create_layer(room_width/2, room_height/2, "UI", oHudText);
+	var textWave = instance_find(oHudText, 0);
 	textWave.text = "Onda " + string(fase);
-	textWave.charging = true;
+	
+	//chama a imagem de alerta como sequence
 }
 
 function drawing(_font,  _color, _valign, _halign, _x, _y, _text){

@@ -6,12 +6,16 @@ var _colision = instance_position(mouse_x, mouse_y, oPause);
 if _click and _colision  in_pause = !in_pause
 
 if in_pause {
-	texto = " D ";
+	var returne = instance_create_layer(room_width/2, room_height/2 + 96, "UI", oReturn);
+	var exite = instance_create_layer(room_width/2, room_height/2 + 192, "UI", oExit);
+	texto = "  D  ";
 	x = room_width/2;
 	y = room_height/2;
 	audio_pause_sound(snd_tema);
 	layer_enable_fx("Effect", true);
 } else {
+	instance_destroy(oReturn);
+	instance_destroy(oExit);
 	texto = " C ";
 	x = 44;
 	y = 40;
