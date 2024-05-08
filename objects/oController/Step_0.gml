@@ -30,7 +30,7 @@ switch (_room_name) {
 		break;
 		
 	case "rm_jogo":
-		//if (!audio_is_playing(snd_tema)) audio_play_sound(snd_tema, 1, 1);
+		if (!audio_is_playing(snd_tema)) audio_play_sound(snd_tema, 1, 1);
 		
 		#region Tempo
 		
@@ -56,6 +56,21 @@ switch (_room_name) {
 		//Deletando inimigos caso ainda existam msm após parare de ser criados
 		if (timer <= 5 and _quantidade_existente != 0) instance_destroy(oPersons);
 
+		#endregion
+		
+		#region HUD
+		
+		if oHudGuara.image_index != 0 and stopAlarm == false {
+			stopAlarm = true;
+			alarm[1] = 30;
+		}
+		
+		#endregion
+		
+		#region Pontos
+		
+		if pontos <= 0 pontos = 0;
+		
 		#endregion
 		
 		break;

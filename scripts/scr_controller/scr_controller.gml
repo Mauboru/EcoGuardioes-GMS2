@@ -1,4 +1,4 @@
-globalvar timer, timerMax, timer_vel, fase, pontos, aparecer, intervalWave;
+globalvar timer, timerMax, timer_vel, fase, pontos, aparecer, intervalWave, stopAlarm;
 
 timerMax = 60;
 timer = timerMax;
@@ -7,6 +7,7 @@ fase = 1;
 pontos = 0;
 aparecer = false;
 intervalWave = false;
+stopAlarm = false;
 
 function interval(){	
 	fase += 1;

@@ -1,4 +1,4 @@
-//draw_self();
+draw_self();
 
 switch(tipo){
 	case "tempo":{
@@ -7,22 +7,22 @@ switch(tipo){
 
 		if (string_length(_minutos) == 1) _minutos = "0" + _minutos;
 
-		drawing(fnt_ui, c_white, fa_middle, fa_center, x, y, "Tempo: " + _horas + ":" + _minutos);
+		drawing(fnt_ui, c_black, fa_middle, fa_center, x, y, "Tempo: " + _horas + ":" + _minutos);
 		break;
 	}
 	
 	case "pontos":{
-		drawing(fnt_ui, c_white, fa_middle, fa_center, x, y, "Pontos: " + string(pontos));
+		drawing(fnt_ui, c_black, fa_middle, fa_center, x, y, "Pontos: " + string(pontos));
 		break;
 	}
 	
 	case "onda":{
-		drawing(fnt_ui, c_yellow, fa_middle, fa_center, x, y, "Onda: " + string(fase));
+		drawing(fnt_ui, c_black, fa_middle, fa_center, x, y, "Onda: " + string(fase));
 		break;
 	}
 	
 	default: {
-		drawing(fnt_ui, c_yellow, fa_middle, fa_center, x, y, text);
+		drawing(fnt_ui, c_black, fa_middle, fa_center, x, y, text);
 		break;
 	}
 }
