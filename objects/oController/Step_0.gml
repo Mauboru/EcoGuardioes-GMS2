@@ -30,7 +30,7 @@ switch (_room_name) {
 		break;
 		
 	case "rm_jogo":
-		if (!audio_is_playing(snd_tema)) audio_play_sound(snd_tema, 1, 1);
+		//if (!audio_is_playing(snd_tema)) audio_play_sound(snd_tema, 1, 1);
 		
 		#region Tempo
 		
@@ -70,6 +70,10 @@ switch (_room_name) {
 		#region Pontos
 		
 		if pontos <= 0 pontos = 0;
+		
+		print("Sucesso " + string(sucess))
+		print("Erros " + string(fails))
+		print("Alerta" + string(stopSoundAlarm))
 		
 		#endregion
 		
