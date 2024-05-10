@@ -32,14 +32,14 @@ switch (_room_name) {
 	case "rm_jogo":
 		//if (!audio_is_playing(snd_tema)) audio_play_sound(snd_tema, 1, 1);
 		
-		#region Tempo
+		#region Time
 		
 			if timer > 0 and intervalWave == false timer -= timer_vel
 			if timer <= 0 interval();
 			
 		#endregion
 
-		#region Pessoas
+		#region Persons
 
 		var _quantidade_desejada = 5;
 		var _quantidade_existente = instance_number(oPersons);
@@ -47,7 +47,7 @@ switch (_room_name) {
 		_instancias_a_adicionar = min(_instancias_a_adicionar, 2);
     
 		// Cria as instâncias necessárias
-		if (_instancias_a_adicionar > 0 and not timer <= 5 and intervalWave == false) {
+		if (_instancias_a_adicionar > 0 and not timer <= 5 and intervalWave == false and specialEvent == false) {
 			repeat(_instancias_a_adicionar) {
 				alarm[0] = irandom_range(0, 130);
 			}
@@ -56,6 +56,16 @@ switch (_room_name) {
 		//Deletando inimigos caso ainda existam msm após parare de ser criados
 		if (timer <= 5 and _quantidade_existente != 0) instance_destroy(oPersons);
 
+		#endregion
+		
+		#region Events
+		
+		if specialEvent {
+			if !instance_exists(oSpecialEvent) instance_create_layer(32, 577, "Instances", oSpecialEvent);
+		}
+
+		if (timer <= 5) instance_destroy(oSpecialEvent);
+		
 		#endregion
 		
 		#region HUD
@@ -67,7 +77,7 @@ switch (_room_name) {
 		
 		#endregion
 		
-		#region Pontos
+		#region Points
 		
 		if pontos <= 0 pontos = 0;
 		

@@ -1,9 +1,10 @@
-globalvar timer, timerMax, timer_vel, fase, pontos, aparecer, intervalWave, stopAlarm, countSequence, sucess, fails, stopSoundAlarm;
+globalvar timer, timerMax, timer_vel, fase, pontos, aparecer, intervalWave, stopAlarm, countSequence, 
+sucess, fails, stopSoundAlarm, specialEvent;
 
-timerMax = 60;
+timerMax = 15;
 timer = timerMax;
 timer_vel = .02;
-fase = 1;
+fase = 2;
 pontos = 0;
 aparecer = false;
 intervalWave = false;
@@ -12,6 +13,7 @@ countSequence = 0;
 sucess = 0;
 fails = 0;
 stopSoundAlarm = false;
+specialEvent = false;
 
 function verifySequence(value){
 	if value == "acertou" {
@@ -31,6 +33,8 @@ function interval(){
 	fase += 1;
 	timer = timerMax;
 	intervalWave = true;
+	
+	if fase == 3 specialEvent = true;
 	
 	if fase == 4 room_goto(rm_fim_de_jogo);
 	
