@@ -35,7 +35,7 @@ switch (_room_name) {
 		#region Time
 		
 			if timer > 0 and intervalWave == false timer -= timer_vel
-			if timer <= 0 interval();
+			if timer <= 0 intervalBetweenWaves();
 			
 		#endregion
 
@@ -54,7 +54,7 @@ switch (_room_name) {
 		}
 
 		//Deletando inimigos caso ainda existam msm após parare de ser criados
-		if (timer <= 5 and _quantidade_existente != 0) instance_destroy(oPersons);
+		if timer <= 5 and _quantidade_existente != 0 or intervalWave == true instance_destroy(oPersons);
 
 		#endregion
 		
@@ -80,10 +80,6 @@ switch (_room_name) {
 		#region Points
 		
 		if pontos <= 0 pontos = 0;
-		
-		print("Sucesso " + string(sucess))
-		print("Erros " + string(fails))
-		print("Alerta" + string(stopSoundAlarm))
 		
 		#endregion
 		

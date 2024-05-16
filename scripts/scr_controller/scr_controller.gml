@@ -1,10 +1,10 @@
-globalvar timer, timerMax, timer_vel, fase, pontos, aparecer, intervalWave, stopAlarm, countSequence, 
+globalvar timer, timerMax, timer_vel, wave, pontos, aparecer, intervalWave, stopAlarm, countSequence, 
 sucess, fails, stopSoundAlarm, specialEvent;
 
-timerMax = 15;
+timerMax = 60;
 timer = timerMax;
 timer_vel = .02;
-fase = 2;
+wave = 1;
 pontos = 0;
 aparecer = false;
 intervalWave = false;
@@ -29,19 +29,19 @@ function verifySequence(value){
 	else stopSoundAlarm = false;
 }
 
-function interval(){	
-	fase += 1;
+function intervalBetweenWaves(){	
+	wave += 1;
 	timer = timerMax;
 	intervalWave = true;
 	
-	if fase == 3 specialEvent = true;
+	if wave == 3 specialEvent = true;
 	
-	if fase == 4 room_goto(rm_fim_de_jogo);
+	if wave == 4 {
+		wave = 0;
+		room_goto(rm_fim_de_jogo);
+	}
 	
-	var textWave = instance_find(oHudText, 0);
-	textWave.text = "Onda " + string(fase);
-	
-	//chama a imagem de alerta como sequence
+	instance_create_layer(x, y, "Instances", oWaveTimer);
 }
 
 function drawing(_font,  _color, _valign, _halign, _x, _y, _text){

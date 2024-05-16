@@ -76,7 +76,7 @@
   "resources":[
     {"id":{"name":"fnt_caracteres","path":"fonts/fnt_caracteres/fnt_caracteres.yy",},},
     {"id":{"name":"fnt_pixel","path":"fonts/fnt_pixel/fnt_pixel.yy",},},
-    {"id":{"name":"fnt_title8","path":"fonts/fnt_title8/fnt_title8.yy",},},
+    {"id":{"name":"fnt_title","path":"fonts/fnt_title/fnt_title.yy",},},
     {"id":{"name":"fnt_ui","path":"fonts/fnt_ui/fnt_ui.yy",},},
     {"id":{"name":"fntYoYo20","path":"fonts/fntYoYo20/fntYoYo20.yy",},},
     {"id":{"name":"fntYoYo30","path":"fonts/fntYoYo30/fntYoYo30.yy",},},
@@ -117,6 +117,7 @@
     {"id":{"name":"oTrash","path":"objects/oTrash/oTrash.yy",},},
     {"id":{"name":"oVolume","path":"objects/oVolume/oVolume.yy",},},
     {"id":{"name":"oWater","path":"objects/oWater/oWater.yy",},},
+    {"id":{"name":"oWaveTimer","path":"objects/oWaveTimer/oWaveTimer.yy",},},
     {"id":{"name":"rm_cutscene","path":"rooms/rm_cutscene/rm_cutscene.yy",},},
     {"id":{"name":"rm_fim_de_jogo","path":"rooms/rm_fim_de_jogo/rm_fim_de_jogo.yy",},},
     {"id":{"name":"rm_init","path":"rooms/rm_init/rm_init.yy",},},

@@ -17,7 +17,7 @@ switch(tipo){
 	}
 	
 	case "onda":{
-		drawing(fnt_ui, c_black, fa_middle, fa_center, x, y, "Onda: " + string(fase));
+		drawing(fnt_ui, c_black, fa_middle, fa_center, x, y, "Onda: " + string(wave));
 		break;
 	}
 	

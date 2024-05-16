@@ -46,7 +46,7 @@
   "ResourceOrderSettings":[
     {"name":"fnt_caracteres","order":3,"path":"fonts/fnt_caracteres/fnt_caracteres.yy",},
     {"name":"fnt_pixel","order":5,"path":"fonts/fnt_pixel/fnt_pixel.yy",},
-    {"name":"fnt_title8","order":6,"path":"fonts/fnt_title8/fnt_title8.yy",},
+    {"name":"fnt_title","order":6,"path":"fonts/fnt_title/fnt_title.yy",},
     {"name":"fnt_ui","order":4,"path":"fonts/fnt_ui/fnt_ui.yy",},
     {"name":"fntYoYo30","order":1,"path":"fonts/fntYoYo30/fntYoYo30.yy",},
     {"name":"fntYoYo50","order":2,"path":"fonts/fntYoYo50/fntYoYo50.yy",},
@@ -77,6 +77,7 @@
     {"name":"oTrash","order":1,"path":"objects/oTrash/oTrash.yy",},
     {"name":"oVolume","order":3,"path":"objects/oVolume/oVolume.yy",},
     {"name":"oWater","order":1,"path":"objects/oWater/oWater.yy",},
+    {"name":"oWaveTimer","order":4,"path":"objects/oWaveTimer/oWaveTimer.yy",},
     {"name":"rm_fim_de_jogo","order":4,"path":"rooms/rm_fim_de_jogo/rm_fim_de_jogo.yy",},
     {"name":"rm_init","order":1,"path":"rooms/rm_init/rm_init.yy",},
     {"name":"rm_jogo","order":3,"path":"rooms/rm_jogo/rm_jogo.yy",},
