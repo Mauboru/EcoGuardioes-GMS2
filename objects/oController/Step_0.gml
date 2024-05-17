@@ -60,11 +60,14 @@ switch (_room_name) {
 		
 		#region Events
 		
-		if specialEvent {
+		if specialEvent and !intervalWave {
 			if !instance_exists(oSpecialEvent) instance_create_layer(32, 577, "Instances", oSpecialEvent);
 		}
 
-		if (timer <= 5) instance_destroy(oSpecialEvent);
+		if (timer <= 5) {
+			specialEvent = false;
+			instance_destroy(oSpecialEvent);
+		}
 		
 		#endregion
 		

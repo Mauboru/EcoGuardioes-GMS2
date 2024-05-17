@@ -1,7 +1,7 @@
 globalvar timer, timerMax, timer_vel, wave, pontos, aparecer, intervalWave, stopAlarm, countSequence, 
 sucess, fails, stopSoundAlarm, specialEvent;
 
-timerMax = 60;
+timerMax = 8;
 timer = timerMax;
 timer_vel = .02;
 wave = 1;
@@ -37,7 +37,7 @@ function intervalBetweenWaves(){
 	if wave == 3 specialEvent = true;
 	
 	if wave == 4 {
-		wave = 0;
+		wave = 1;
 		room_goto(rm_fim_de_jogo);
 	}
 	

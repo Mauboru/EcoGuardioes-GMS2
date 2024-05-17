@@ -68,5 +68,4 @@ function fn_exit_buttom() {
 }
 
 function fn_skip_buttom() {
-	transition(rm_jogo);
 }
