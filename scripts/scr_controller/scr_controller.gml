@@ -1,7 +1,7 @@
 globalvar timer, timerMax, timer_vel, wave, pontos, aparecer, intervalWave, stopAlarm, countSequence, 
 sucess, fails, stopSoundAlarm, specialEvent;
 
-timerMax = 8;
+timerMax = 60;
 timer = timerMax;
 timer_vel = .02;
 wave = 1;

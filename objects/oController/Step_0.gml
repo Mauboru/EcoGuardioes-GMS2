@@ -4,7 +4,7 @@ if in_pause exit;
 
 var _room_name = room_get_name(room);
 
-audio_sound_gain(snd_manguezal, music_volume, 0);
+//audio_sound_gain(snd_manguezal, music_volume, 0);
 audio_sound_gain(snd_menu, music_volume, 0);
 audio_sound_gain(snd_tema, music_volume, 0);
 
@@ -14,7 +14,7 @@ switch (_room_name) {
 		break;
 		
     case "rm_init":
-        if (!audio_is_playing(snd_manguezal)) audio_play_sound(snd_manguezal, 1, 0);
+        //if (!audio_is_playing(snd_manguezal)) audio_play_sound(snd_manguezal, 1, 0);
         break;
 		
 	case "rm_cutscene":
@@ -30,7 +30,7 @@ switch (_room_name) {
 		break;
 		
 	case "rm_jogo":
-		//if (!audio_is_playing(snd_tema)) audio_play_sound(snd_tema, 1, 1);
+		if (!audio_is_playing(snd_tema)) audio_play_sound(snd_tema, 1, 1);
 		
 		#region Time
 		
