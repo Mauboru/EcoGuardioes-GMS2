@@ -6,7 +6,7 @@
   "name":"oReturn",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oButtom","path":"objects/oButtom/oButtom.yy",},"propertyId":{"name":"texto","path":"objects/oButtom/oButtom.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"  5  ",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oButtom","path":"objects/oButtom/oButtom.yy",},"propertyId":{"name":"on_click","path":"objects/oButtom/oButtom.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"fn_return_buttom",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oButtom","path":"objects/oButtom/oButtom.yy",},"propertyId":{"name":"destino","path":"objects/oButtom/oButtom.yy",},"resource":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"rm_menu",},
   ],
   "parent":{
     "name":"Buttons",

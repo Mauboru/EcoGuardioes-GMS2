@@ -2,14 +2,13 @@
   "$GMObject":"",
   "%Name":"oSkip",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"oSkip",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oButtom","path":"objects/oButtom/oButtom.yy",},"propertyId":{"name":"texto","path":"objects/oButtom/oButtom.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Pular",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oButtom","path":"objects/oButtom/oButtom.yy",},"propertyId":{"name":"on_click","path":"objects/oButtom/oButtom.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"fn_skip_buttom",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oButtom","path":"objects/oButtom/oButtom.yy",},"propertyId":{"name":"font","path":"objects/oButtom/oButtom.yy",},"resource":{"name":"fnt_ui","path":"fonts/fnt_ui/fnt_ui.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"fnt_ui",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oButtom","path":"objects/oButtom/oButtom.yy",},"propertyId":{"name":"texto","path":"objects/oButtom/oButtom.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"  l  ",},
   ],
   "parent":{
     "name":"Buttons",
@@ -32,9 +31,7 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[
-    {"$GMObjectProperty":"v1","%Name":"destiny","filters":[],"listItems":[],"multiselect":false,"name":"destiny","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"rm_init","varType":4,},
-  ],
+  "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,

@@ -1,19 +1,21 @@
 {
   "$GMObject":"",
   "%Name":"oCredits",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"oCredits",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oButtom","path":"objects/oButtom/oButtom.yy",},"propertyId":{"name":"texto","path":"objects/oButtom/oButtom.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"  O  ",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oButtom","path":"objects/oButtom/oButtom.yy",},"propertyId":{"name":"destino","path":"objects/oButtom/oButtom.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"rm_credits",},
+  ],
   "parent":{
-    "name":"HUD",
-    "path":"folders/Objects/UI/HUD.yy",
+    "name":"Buttons",
+    "path":"folders/Objects/UI/Buttons.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"oButtom",
+    "path":"objects/oButtom/oButtom.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -32,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sCredits",
-    "path":"sprites/sCredits/sCredits.yy",
+    "name":"sButtom",
+    "path":"sprites/sButtom/sButtom.yy",
   },
   "spriteMaskId":null,
   "visible":true,
